@@ -1,0 +1,5 @@
+\frametitle{Code Conventions}
+\begin{figure}[ht]
+        \centering
+      \includegraphics[width=0.8\textwidth]{camelcase.png}
+    \end{figure}

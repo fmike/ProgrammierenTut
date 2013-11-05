@@ -1,0 +1,27 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@endinputifotherversion {3.22pt}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Variablen}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{1}{Variablenoperationen}{9}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Klassen}{15}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Erzeugung von Objekten}{15}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{"Verhalten" modelieren}{29}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{1}{Methoden}{29}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Code Conventions}{35}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Zum \IeC {\"U}bungsblatt 1}{44}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{1}{Hinweise}{44}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Hinweise zum Praktomat}{44}{0}{6}

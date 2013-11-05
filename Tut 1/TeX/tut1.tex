@@ -1,0 +1,188 @@
+%% LaTeX-Beamer template for KIT design
+%% by Erik Burger, Christian Hammer
+%% title picture by Klaus Krogmann
+%%
+%% version 2.1
+%%
+%% mostly compatible to KIT corporate design v2.0
+%% http://intranet.kit.edu/gestaltungsrichtlinien.php
+%%
+%% Problems, bugs and comments to
+%% burger@kit.edu
+
+\documentclass[18pt]{beamer}
+
+%% SLIDE FORMAT
+
+% use 'beamerthemekit' for standard 4:3 ratio
+% for widescreen slides (16:9), use 'beamerthemekitwide'
+
+\usepackage{templates/beamerthemekit}
+% \usepackage{templates/beamerthemekitwide}
+
+%% TITLE PICTURE
+
+% if a custom picture is to be used on the title page, copy it into the 'logos'
+% directory, in the line below, replace 'mypicture' with the 
+% filename (without extension) and uncomment the following line
+% (picture proportions: 63 : 20 for standard, 169 : 40 for wide
+% *.eps format if you use latex+dvips+ps2pdf, 
+% *.jpg/*.png/*.pdf if you use pdflatex)
+
+%\titleimage{mypicture}
+
+%% TITLE LOGO
+
+% for a custom logo on the front page, copy your file into the 'logos'
+% directory, insert the filename in the line below and uncomment it
+
+%\titlelogo{mylogo}
+
+% (*.eps format if you use latex+dvips+ps2pdf,
+% *.jpg/*.png/*.pdf if you use pdflatex)
+
+%% TikZ INTEGRATION
+
+% use these packages for PCM symbols and UML classes
+% \usepackage{templates/tikzkit}
+% \usepackage{templates/tikzuml}
+
+% the presentation starts here
+\usepackage{graphicx}
+\usepackage{listings}
+\lstdefinelanguage{Pseudo}
+{keywords={Function,return,assert,while,for,to,if,else,end,do,Procedure},%
+emph={FALSE,TRUE},
+emphstyle=\color{colconst},
+sensitive=true,%
+comment=[l]{//},%
+string=[b]",%
+}
+\lstset{basicstyle=\ttfamily}
+
+\usepackage{stmaryrd}
+\usepackage[utf8]{inputenc}
+
+\title[Prog Tut Nr. 1]{Tutorium Programmieren}
+\subtitle{Tut Nr.1: Kennenlernen, Organisatorisches, Einführung Java}
+\author{Michael Friedrich}
+\date{29. / 31.10.2013}
+
+\institute{Institut f\"ur theoretische Informatik}
+% Bibliography
+
+\usepackage[citestyle=authoryear,bibstyle=numeric,hyperref,backend=biber]{biblatex}
+\addbibresource{templates/example.bib}
+\bibhang1em
+
+\begin{document}
+
+% change the following line to "ngerman" for German style date and logos
+\selectlanguage{ngerman}
+
+%title page
+\begin{frame}
+	\titlepage
+\end{frame}
+
+%table of contents
+\begin{frame}{Outline/Gliederung}
+	\tableofcontents
+\end{frame}
+
+\section{Kennenlernen}
+\subsection{Meine Wenigkeit}
+\begin{frame}{Vorstellung / Kennenlernen}
+\begin{block}{Meine Wenigkeit}
+	\begin{itemize}
+		\item Name: Michael Friedrich
+		\item Studiengang: Informatik Bachelor
+		\item E-Mail: \url{michael.friedrich@student.kit.edu}
+		\item Programmiererfahrung: Java, C, C++...
+	\end{itemize}
+\end{block}
+\end{frame}
+
+\subsection{Vorstellungsrunde}
+\begin{frame}{kurze Vorstellungsrunde}
+\begin{block}{Und wer seid ihr so?}
+	\begin{itemize}
+		\item Name, Studiengang, Programmiererfahrung?
+		\item Erwartungen an Vorlesung / Tutorium?
+	\end{itemize}
+	\end{block}
+	\begin{figure}%
+	\center
+	\includegraphics[width=0.4\columnwidth]{bild.jpg}%
+	\end{figure}
+\end{frame}
+
+\section{Organisatorisches}
+\subsection{Das Tutorium}
+\begin{frame}{Das Tutorium}
+\begin{block}{Termine}
+	Dienstags um 11.30 - 13.00 Uhr in Raum -108 Geb. 50.34 	\newline
+ Donnerstags um 11.30 - 13.00 Uhr in Raum 148 Geb 50.20 (Kinderklinik)
+\end{block}
+\begin{block}{Was machen wir hier?}
+	\begin{itemize}
+		\item Vorlesungsstoff besprechen
+		\item Übungsblätter besprechen
+		\item Fragen klären
+		\item gemeinsam Programmieren mit Java lernen
+	\end{itemize}
+\end{block}
+\end{frame}
+
+\subsection{Übungsschein}
+\begin{frame}{Übungsschein}
+	\begin{block}{Übungsblätter}
+		\begin{itemize}
+			\item circa alle 2 Wochen neues Übungsblatt (siehe VL-Website)
+			\item insgesamt 6 Übungsblätter
+		\end{itemize}
+	\end{block}
+	\pause
+	\begin{block}{Übungsschein}
+		\begin{itemize}
+			\item $\geq 50\%$ der Punkte sind zu erreichen
+			\item Übungsschein ist Pflicht um zu Abschlussaufgaben zugelassen zu werden
+		\end{itemize}
+	\end{block}
+	\huge{$\Rightarrow$ Disclaimer bitte abgeben!}
+\end{frame}
+
+\begin{frame}{Ilias}
+	\begin{block}{Ilias?}
+	\begin{itemize}
+		\item Ilias = eLearning System des KIT
+		\item Zu erreichen unter \url{ilias.studium.kit.edu}
+	\end{itemize}
+	\end{block}
+	\pause
+	\begin{block}{Inhalte}
+	\begin{itemize}
+		\item Diskussionsforum zur Vorlesung
+		\item Allgemeines Forum für Fragen
+		\item Foren für jedes Tutorium
+		\item Programmieren-Wiki
+		\item \textcolor[rgb]{1,0,0}{Bitte keine Lösungen posten!}
+	\end{itemize}
+	\end{block}
+	Passwort für Programmieren: \hspace{1cm} \url{prog-13}
+\end{frame}
+
+\section{Java Einführung}
+\begin{frame}
+\end{frame}
+
+\appendix
+\beginbackup
+
+%\begin{frame}[allowframebreaks]{References}
+%	\printbibliography
+%\end{frame}
+
+\backupend
+
+\end{document}
