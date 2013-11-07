@@ -1,22 +1,22 @@
 class Baby {
 
 	String name;
-	int gewicht; //in gramm
-	int groesse; // in cm 
-	int lautstaerke;
+	int weight; //in grams
+	int heigt; // in cm 
+	int volume; // in dB
 	
-	public Baby(String na, int gewicht, int groesse) {
+	public Baby(String na, int weight, int height) {
 
 	name = na;
-	gewicht = gewicht;
-	groesse = groesse;
+	weight= weight;
+	height= height;
 
 
 	}
 
-	void schreien(String name, int lautstaerke) {
+	void scream(String name, int volume) {
 	
-	System.out.println(name + " schreit mit " + lautstaerke + " dB");		
+	System.out.println(name + " screams with " + volume+ " dB");		
 
 	}
 
@@ -25,7 +25,7 @@ class Baby {
 	
 	Baby anna = new Baby("Anna", 3000, 70)
 
-	anna.schreien(anna.name, 200);
+	anna.scream(anna.name, 200);
 	
 	}
 
