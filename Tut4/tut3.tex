@@ -1,0 +1,105 @@
+%% LaTeX-Beamer template for KIT design
+%% by Erik Burger, Christian Hammer
+%% title picture by Klaus Krogmann
+%%
+%% version 2.1
+%%
+%% mostly compatible to KIT corporate design v2.0
+%% http://intranet.kit.edu/gestaltungsrichtlinien.php
+%%
+%% Problems, bugs and comments to
+%% burger@kit.edu
+
+\documentclass[18pt]{beamer}
+
+%% SLIDE FORMAT
+
+% use 'beamerthemekit' for standard 4:3 ratio
+% for widescreen slides (16:9), use 'beamerthemekitwide'
+
+\usepackage{templates/beamerthemekit}
+% \usepackage{templates/beamerthemekitwide}
+
+%% TITLE PICTURE
+
+% if a custom picture is to be used on the title page, copy it into the 'logos'
+% directory, in the line below, replace 'mypicture' with the 
+% filename (without extension) and uncomment the following line
+% (picture proportions: 63 : 20 for standard, 169 : 40 for wide
+% *.eps format if you use latex+dvips+ps2pdf, 
+% *.jpg/*.png/*.pdf if you use pdflatex)
+
+%\titleimage{mypicture}
+
+%% TITLE LOGO
+
+% for a custom logo on the front page, copy your file into the 'logos'
+% directory, insert the filename in the line below and uncomment it
+
+%\titlelogo{mylogo}
+
+% (*.eps format if you use latex+dvips+ps2pdf,
+% *.jpg/*.png/*.pdf if you use pdflatex)
+
+%% TikZ INTEGRATION
+
+% use these packages for PCM symbols and UML classes
+% \usepackage{templates/tikzkit}
+% \usepackage{templates/tikzuml}
+
+% the presentation starts here
+\usepackage{graphicx}
+\usepackage{listings}
+\lstdefinelanguage{Pseudo}
+{keywords={Function,return,assert,while,for,to,if,else,end,do,Procedure},%
+emph={FALSE,TRUE},
+emphstyle=\color{colconst},
+sensitive=true,%
+comment=[l]{//},%
+string=[b]",%
+}
+\lstset{basicstyle=\ttfamily}
+
+\usepackage{stmaryrd}
+\usepackage[utf8]{inputenc}
+
+\title[Prog Tut Nr. 3]{Tutorium Programmieren}
+\subtitle{Tut Nr.3: Kontrollstrukturen}
+\author{Michael Friedrich}
+\date{12. / 14.11.2013}
+
+\institute{Institut f\"ur theoretische Informatik}
+% Bibliography
+
+\usepackage[citestyle=authoryear,bibstyle=numeric,hyperref,backend=biber]{biblatex}
+\addbibresource{templates/example.bib}
+\bibhang1em
+
+\begin{document}
+
+% change the following line to "ngerman" for German style date and logos
+\selectlanguage{ngerman}
+
+%title page
+\begin{frame}
+	\titlepage
+\end{frame}
+
+%table of contents
+\begin{frame}{Outline/Gliederung}
+	\tableofcontents
+\end{frame}
+
+
+
+
+\appendix
+\beginbackup
+
+%\begin{frame}[allowframebreaks]{References}
+%	\printbibliography
+%\end{frame}
+
+\backupend
+
+\end{document}

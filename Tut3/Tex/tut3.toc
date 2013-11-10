@@ -1,0 +1,19 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@endinputifotherversion {3.22pt}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Checkstyle}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Kontrollstrukturen}{8}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Getter / Setter}{13}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Einschub}{15}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Tutoriumsaufgabe}{16}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Ende}{18}{0}{6}
