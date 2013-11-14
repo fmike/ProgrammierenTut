@@ -6,5 +6,6 @@ Ankündingen usw im Ilias Forum
 
 Nur auf Englisch programmieren, das Beispiel im Tut Dienstag wäre ne schlechte Abgabe!
 
+Tut3 : Code ist online. Dieser kann über Eclipse importiert werden als ganzes Projekt über die .zip.
 
 Nächstes mal bitte Laptops mitbringen
