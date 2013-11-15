@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>tut3.bcf</file>
+      <file>tut4.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>tut3.bbl</file>
+      <file>tut4.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -65,19 +65,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>tut3</infile>
+      <infile>tut4</infile>
     </cmdline>
     <input>
-      <file>tut3.bcf</file>
+      <file>tut4.bcf</file>
     </input>
     <output>
-      <file>tut3.bbl</file>
+      <file>tut4.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>tut3.bbl</file>
+      <file>tut4.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>tut3.bcf</file>
+      <file>tut4.bcf</file>
     </requires>
     <requires type="editable">
       <file>templates/example.bib</file>

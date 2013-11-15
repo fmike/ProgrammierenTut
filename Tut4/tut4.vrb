@@ -1,0 +1,17 @@
+\frametitle{while - Schleifen}
+Aufgabe 1 (Schleifen)
+Schreiben Sie in einer Klasse namens Loops die Methoden
+\begin{itemize}
+\item public static boolean isPrimeWhile(int candidate) und
+\item public static boolean isPrimeDoWhile(int candidate).
+\end{itemize}
+\small{Diese sollen als Rückgabewert den Wert true haben, falls candidate eine Primzahl ist. In den
+Methoden soll dabei eine while-Schleife (a)) bzw. eine do-while-Schleife (b))
+verwendet werden. Beachten Sie auch die Fälle, in denen der Wert des Parameters ganz offensichtlich
+keine Primzahl ist.}
+\begin{itemize}
+\item Schreiben Sie zusätzlich eine main-Methode
+public static void main(String[] args),
+die alle Zahlen zwischen -1 und einer festgelegten konstanten Zahl N auf ihre Primzahl-Eigenschaft
+überprüft.
+\end{itemize}

@@ -50,23 +50,38 @@
 % the presentation starts here
 \usepackage{graphicx}
 \usepackage{listings}
-\lstdefinelanguage{Pseudo}
-{keywords={Function,return,assert,while,for,to,if,else,end,do,Procedure},%
-emph={FALSE,TRUE},
-emphstyle=\color{colconst},
-sensitive=true,%
-comment=[l]{//},%
-string=[b]",%
+\usepackage{color}
+\usepackage{textcomp}
+\definecolor{listinggray}{gray}{0.9}
+\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+\lstset{
+	language=Java,
+	backgroundcolor=\color{lbcolor},
+	tabsize=4,
+	rulecolor=,
+        basicstyle=\footnotesize,
+        aboveskip=5pt,
+        upquote=true,
+        columns=fixed,
+        showstringspaces=false,
+        extendedchars=true,
+        breaklines=true,
+        frame=single,
+        showtabs=false,
+        showspaces=false,
+        showstringspaces=false,
+        identifierstyle=\ttfamily,
+        keywordstyle=\color[rgb]{0,0,1},
+        commentstyle=\color[rgb]{0.133,0.545,0.133},
+        stringstyle=\color[rgb]{0.627,0.126,0.941},
 }
-\lstset{basicstyle=\ttfamily}
 
-\usepackage{stmaryrd}
 \usepackage[utf8]{inputenc}
 
-\title[Prog Tut Nr. 3]{Tutorium Programmieren}
-\subtitle{Tut Nr.3: Kontrollstrukturen}
+\title[Prog Tut Nr. 4]{Tutorium Programmieren}
+\subtitle{Tut Nr.4: Kontrollstrukturen}
 \author{Michael Friedrich}
-\date{12. / 14.11.2013}
+\date{19. / 21.11.2013}
 
 \institute{Institut f\"ur theoretische Informatik}
 % Bibliography
@@ -90,7 +105,29 @@ string=[b]",%
 	\tableofcontents
 \end{frame}
 
+\section{Wiederholung}
 
+\section{Tutoriumsaufgabe}
+\subsection{while-Schleifen}
+
+\begin{frame}[fragile]{while - Schleifen}
+Aufgabe 1 (Schleifen)
+Schreiben Sie in einer Klasse namens Loops die Methoden
+\begin{itemize}
+\item public static boolean isPrimeWhile(int candidate) und
+\item public static boolean isPrimeDoWhile(int candidate).
+\end{itemize}
+\small{Diese sollen als Rückgabewert den Wert true haben, falls candidate eine Primzahl ist. In den
+Methoden soll dabei eine while-Schleife (a)) bzw. eine do-while-Schleife (b))
+verwendet werden. Beachten Sie auch die Fälle, in denen der Wert des Parameters ganz offensichtlich
+keine Primzahl ist.}
+\begin{itemize}
+\item Schreiben Sie zusätzlich eine main-Methode
+public static void main(String[] args),
+die alle Zahlen zwischen -1 und einer festgelegten konstanten Zahl N auf ihre Primzahl-Eigenschaft
+überprüft.
+\end{itemize}
+\end{frame}
 
 
 \appendix
