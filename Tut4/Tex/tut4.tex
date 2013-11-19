@@ -260,7 +260,7 @@ public class User {
   Beispiel:
     \begin{lstlisting}
 public class Math {   
-  public static final double Pi = 3.14159265359
+  public static final double PI = 3.14159265359
   public static final double E =  2.7182818284590452
   ...
 }
@@ -347,11 +347,11 @@ public class Calculator {
     private String username;
     private String password;
     
-    public setPassword(String password) { // Setter
+    public void setPassword(String password) { // Setter
       this.password = password;
     }
     
-    public getPassword() {  // Getter
+    public String getPassword() {  // Getter
       return this.password
     }
   }\end{lstlisting}
@@ -372,7 +372,7 @@ public class Calculator {
   public class User {   
     private String password;
     
-    public setPassword(String password) { // Setter
+    public void setPassword(String password) { // Setter
       if ( password.length >= 6 ) {
         this.password = password;
       }
