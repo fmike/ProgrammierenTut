@@ -634,6 +634,25 @@ Danke für eure Aufmerksamkeit!\newline
 \end{center}
 \end{frame}
 
+\subsection{Lösung Tutoriumsaufgabe}
+\begin{frame}[fragile]{Lösung}
+\begin{lstlisting}
+static boolean tester(int n) {
+		int counter = 2;
+		int upTo = n/2;
+		boolean valid = true;
+		
+		while((counter <= upTo) && (valid)) {
+				if((n % counter) == 0)
+				valid = false;
+					counter++;
+		}
+		
+ return valid;
+}
+\end{lstlisting}
+\end{frame}
+
 
 
 \appendix
