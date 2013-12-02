@@ -57,9 +57,8 @@
 \lstset{
 	language=Java,
 	backgroundcolor=\color{lbcolor},
-	tabsize=4,
-	rulecolor=,
-        basicstyle=\footnotesize,
+	tabsize=2,
+	      basicstyle=\footnotesize,
         aboveskip=5pt,
         upquote=true,
         columns=fixed,
@@ -68,15 +67,15 @@
         breaklines=true,
         frame=single,
         showtabs=false,
+				keepspaces=truek,
         showspaces=false,
-        showstringspaces=false,
         identifierstyle=\ttfamily,
         keywordstyle=\color[rgb]{0,0,1},
         commentstyle=\color[rgb]{0.133,0.545,0.133},
         stringstyle=\color[rgb]{0.627,0.126,0.941},
 }
 \usepackage[utf8]{inputenc}
-
+\usepackage{stmaryrd}
 
 \title[Prog Tut Nr. 6]{Tutorium Programmieren}
 \subtitle{Tut Nr.6: Arrays, for-schleifen}
@@ -116,7 +115,7 @@
 \subsection{for-each}
 \begin{frame}[fragile]{for Erweiterung}
 \begin{exampleblock}{for-each Schleife}
-\begin{lstlisting}[basicstyle=\small]
+\begin{lstlisting}[basicstyle=\scriptsize]
 	for(Element e: Collection C) {
 		//fuer Arrays idR ungeeignet -> basiert auf iterator
 	}
@@ -125,6 +124,35 @@
 \vspace{1cm}
 $\Rightarrow$ später in der Vorlesung passender
 \end{frame}
+
+\subsection{break und continue}
+\begin{frame}[fragile]{break und continue}
+\begin{exampleblock}{break}
+\begin{lstlisting}[basicstyle=\scriptsize]
+	while(i < array.length) {
+	  	if (array[i].equals("A")) {
+		    		System.out.println("A gefunden!");
+		    		break;
+		  	}
+	} 
+	\end{lstlisting} \pause
+\end{exampleblock}
+Bricht den erwarten Programmfluss $\shortrightarrow$ Ausnahme!
+\begin{exampleblock}{continue}
+\begin{lstlisting}[basicstyle=\scriptsize]
+	while(i < array.length) {
+		   		if (array[i].equals("A")) {
+		    					System.out.println("A gefunden!");
+		    					continue;
+		  	} else {
+		    	array[i] = "A";
+		  	}
+	}
+	\end{lstlisting}
+\end{exampleblock}
+Auch hier beim Einsatz aufpassen
+\end{frame}
+
 
 \section{Tutoriumsaufgabe}
 \begin{frame}[fragile]{Tutoriumsaufgabe}
