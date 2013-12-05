@@ -57,8 +57,9 @@
 \lstset{
 	language=Java,
 	backgroundcolor=\color{lbcolor},
-	tabsize=2,
-	      basicstyle=\footnotesize,
+	tabsize=4,
+	rulecolor=,
+        basicstyle=\footnotesize,
         aboveskip=5pt,
         upquote=true,
         columns=fixed,
@@ -67,8 +68,8 @@
         breaklines=true,
         frame=single,
         showtabs=false,
-				keepspaces=truek,
         showspaces=false,
+        showstringspaces=false,
         identifierstyle=\ttfamily,
         keywordstyle=\color[rgb]{0,0,1},
         commentstyle=\color[rgb]{0.133,0.545,0.133},
@@ -77,10 +78,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage{stmaryrd}
 
-\title[Prog Tut Nr. 6]{Tutorium Programmieren}
-\subtitle{Tut Nr.6: Arrays, for-schleifen}
+\title[Prog Tut Nr. 7]{Tutorium Programmieren}
+\subtitle{Tut Nr.7: Kontrollstrukturen}
 \author{Michael Friedrich}
-\date{3. / 5.12.2013}
+\date{10. / 12.12.2013}
 
 \institute{Institut f\"ur theoretische Informatik}
 % Bibliography
@@ -104,65 +105,28 @@
 	\tableofcontents
 \end{frame}
 
-\section{Kurze Anmerkungen}
-\subsection{Korrektur}
-\begin{frame}[fragile]{Korrekturhinweise}
+\section{Anmerkungen}
+\begin{frame}{Anmeldung Übungsschein}
+	Meldet euch möglichst bald an \newline
+	\vspace{2cm}
+	\huge \textbf{Spätestens bis zum \underline{23.12.2013}}
+\end{frame}
+\begin{frame}[fragile]{Feedback}
 \begin{itemize}
-\item Enums in eigene Klasse, sie gehören nicht "`in ein anderes Objekt"'
+	\item Vielen Dank nochmals\pause
+	\vspace{1cm}
+	\item Verbesserungspunkte\pause
+	
+	\begin{itemize}
+		\item Fehler in den Folien \pause
+		$\shortrightarrow$ JA, aber stören idR den Hauptpunkt der Folie nicht. Wir sind auch nur Menschen ;) \pause
+		\item Mehr zusammen coden \newline \pause
+		$\shortrightarrow$ JAIN, Probleme dabei sind fehlende initiative \newline \pause
+		$\shortrightarrow$ Jede Woche auseinandersetzen mit Umsetzungsschwierigkeiten \newline \pause
+		$\shortrightarrow$ step-by-step durch die Lösung meiner Meinung nach besser als dauernd zuhören (Bsp. letztes Tut)
+	\end{itemize}
 \end{itemize}
 \end{frame}
-
-\subsection{for-each}
-\begin{frame}[fragile]{for Erweiterung}
-\begin{exampleblock}{for-each Schleife}
-\begin{lstlisting}[basicstyle=\scriptsize]
-	for(Element e: Collection C) {
-		//fuer Arrays idR ungeeignet -> basiert auf iterator
-	}
-	\end{lstlisting}
-\end{exampleblock}
-\vspace{1cm}
-$\Rightarrow$ später in der Vorlesung passender
-\end{frame}
-
-\subsection{break und continue}
-\begin{frame}[fragile]{break und continue}
-\begin{exampleblock}{break}
-\begin{lstlisting}[basicstyle=\scriptsize]
-	while(i < array.length) {
-	  	if (array[i].equals("A")) {
-		    		System.out.println("A gefunden!");
-		    		break;
-		  	}
-		  i++;
-	} 
-	\end{lstlisting} \pause
-\end{exampleblock}
-Bricht den erwarten Programmfluss $\shortrightarrow$ Ausnahme!
-\begin{exampleblock}{continue}
-\begin{lstlisting}[basicstyle=\scriptsize]
-	while(i < array.length) {
-		   		if (array[i].equals("A")) {
-		    					System.out.println("A gefunden!");
-		    					continue;
-		  	} else {
-		    	array[i] = "A";
-		  	}
-				i++;
-	}
-	\end{lstlisting}
-\end{exampleblock}
-Auch hier beim Einsatz aufpassen
-\end{frame}
-
-
-\section{Tutoriumsaufgabe}
-\begin{frame}[fragile]{Tutoriumsaufgabe}
-\begin{itemize}
-\item Übungsblatt 3, SS2013 "`FiniteSet"'
-\end{itemize}
-\end{frame}
-
 
 
 \appendix
