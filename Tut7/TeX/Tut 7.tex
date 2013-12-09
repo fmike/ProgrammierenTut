@@ -79,7 +79,7 @@
 \usepackage{stmaryrd}
 
 \title[Prog Tut Nr. 7]{Tutorium Programmieren}
-\subtitle{Tut Nr.7: Kontrollstrukturen}
+\subtitle{Tut Nr.7: Pakete, Listen}
 \author{Michael Friedrich}
 \date{10. / 12.12.2013}
 
@@ -111,6 +111,7 @@
 	\vspace{2cm}
 	\huge \textbf{Spätestens bis zum \underline{23.12.2013}}
 \end{frame}
+
 \begin{frame}[fragile]{Feedback}
 \begin{itemize}
 	\item Vielen Dank nochmals\pause
@@ -119,7 +120,7 @@
 	
 	\begin{itemize}
 		\item Fehler in den Folien \pause
-		$\shortrightarrow$ JA, aber stören idR den Hauptpunkt der Folie nicht. Wir sind auch nur Menschen ;) \pause
+		$\shortrightarrow$ JA, aber stören idR den Hauptaussage der Folie nicht. Wir sind auch nur Menschen ;) \pause
 		\item Mehr zusammen coden \newline \pause
 		$\shortrightarrow$ JAIN, Probleme dabei sind fehlende initiative \newline \pause
 		$\shortrightarrow$ Jede Woche auseinandersetzen mit Umsetzungsschwierigkeiten \newline \pause
@@ -127,6 +128,77 @@
 	\end{itemize}
 \end{itemize}
 \end{frame}
+
+
+\section{Pakete}
+\begin{frame}[fragile]{Pakete} \pause
+\begin{itemize}
+	\item Struktur, um Code zu ordnen \pause
+	\item bekanntes Beispiel: Libraries \pause
+\end{itemize}
+\begin{exampleblock}{Beispiel}
+\begin{lstlisting}[basicstyle=\scriptsize]
+package garage;
+
+public class Bike {
+...
+}
+
+\end{lstlisting}
+\end{exampleblock} \pause
+Wird in der Regel auf dem Übungsblatt vorgegeben.
+\end{frame}
+
+\section{Listen}
+\begin{frame}[fragile]{Listen} \pause
+\begin{itemize}
+	\item Basieren auf der Objektreferenz \pause
+	\item besteht aus Nodes mit Wert Referenz auf nächsten Node \pause
+\end{itemize}
+\begin{exampleblock}{Beispiel}
+\begin{lstlisting}[basicstyle=\scriptsize]
+class ListNode{
+	String content;
+	ListNode next;
+	
+	ListNode(String x, ListNode n) {
+	this.content = x;
+	this.next = n;
+	}
+}
+\end{lstlisting}
+\end{exampleblock} \pause
+\begin{figure}
+\includegraphics<5->[width=\textwidth]{nodes.png}
+\end{figure}
+\end{frame}
+
+\subsection{Tutoriumsaufgabe}
+\begin{frame}{Tutoriumsaufgabe}
+	siehe pdf
+\end{frame}
+
+\subsection{doppelt verkettet}
+\begin{frame}[fragile]{Doppelt verkettete Listen}
+Jemand eine Idee, wie das realisierbar ist? \pause
+\begin{exampleblock}<2->{Beispiel}
+\begin{lstlisting}[basicstyle=\scriptsize]
+class DNode {
+	Object content;
+	DNode next; 
+	DNode prev;
+	
+	DNode(content, DNode next, DNode prev) {
+		this.content = content;
+		this.next = next; 
+		this.prev = prev;
+	}
+}
+\end{lstlisting}
+\end{exampleblock} \pause
+
+\end{frame}
+
 
 
 \appendix
