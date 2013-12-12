@@ -1,0 +1,17 @@
+\frametitle{I made a Boo Boo}
+\pause
+\begin{itemize}
+\item Fehler meinerseits...Kein Abzug, aber in Zukunft schon!\pause
+\end{itemize}
+\begin{block}{Lücke füllen und damit implizit löschen}\pause
+\begin{lstlisting}
+  for(int j = indexFound; j < elements.length; j++) {
+elements[j] = elements[j+1];
+}
+lastElem--;
+}
+\end{lstlisting}
+Führt zu einer Exception! Ähnlich auch in Aufgabenteil C \newline \pause
+$\Rightarrow$ Entweder: Nur bis zu (elements.length - 1) gehen und letztes Element außerhalb der for Schleife manipulieren \newline \pause
+$\Rightarrow$ ODER : Indizierung anderst wählen: elements[j-1] = elements[j] im for-Rumpf
+\end{block}
