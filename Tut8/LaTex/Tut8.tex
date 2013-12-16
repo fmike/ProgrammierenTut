@@ -79,7 +79,7 @@
 \usepackage{stmaryrd}
 
 \title[Prog Tut Nr. 8]{Tutorium Programmieren}
-\subtitle{Tut Nr.8: }
+\subtitle{Tut Nr.8: FileReader, String API}
 \author{Michael Friedrich}
 \date{17. / 19.12.2013}
 
@@ -106,7 +106,7 @@
 \end{frame}
 
 \section{Blatt3}
-\begin{frame}\pause
+\begin{frame}{Besprechung Blatt 3}\pause
 \begin{itemize}
 	\item nur geforderte Dateien hochladen! \pause
 	\item achtet auf die Aufgabenstellung! \pause
@@ -140,18 +140,115 @@ $\Rightarrow$ ODER : Indizierung anders wählen: elements[j-1] = elements[j] im 
 \end{frame}
 
 \section{Blatt4}
-\begin{frame}\pause
+\begin{frame}{Hinweise Blatt 4}\pause
 \begin{itemize}
 \item Kapselung! Jetz Pflicht...Wiederholungsbedarf?\pause
-\item "`Faustregeln"'\pause
+\item "`Faustregeln"' \pause
 \begin{itemize}
-	\item Attribute private
-	\item Methoden meistens public (außer Hilfsmethoden)
-	\item Konstruktor \color[rgb]{1,0,0}{IMMER} public
-\end{itemize}
+	\item Attribute private  \pause
+	\item Methoden meistens public (außer Hilfsmethoden) \pause
+	\item Konstruktor \color[rgb]{1,0,0}{IMMER} public  \pause
+\end{itemize} \pause
+\item Vergesst nicht, Checkstyle upzudaten \pause
+\item Listen erstellen wie letztes Tut 
 \end{itemize}
 	
 \end{frame}
+
+\section{FileReader}
+\begin{frame}[fragile]{FileReader}
+\begin{columns}[c]
+\column[c]{5cm}
+\begin{lstlisting}[basicstyle=\tiny]
+
+	public static void main(String[] args) {
+	if (args.length != 1) {
+		System.out.println(USAGE);
+		System.exit(1);
+	}
+	FileReader in = null;
+	try {
+		in = new FileReader(args[0]);
+	} catch (FileNotFoundException e) {
+		System.out.println(ERROR_MESSAGE);
+		System.exit(1);
+	}
+		BufferedReader reader = new BufferedReader(in);
+	try {
+		String line = reader.readLine();
+		while (line != null) {
+		// TODO: process line here
+		line = reader.readLine();
+		}
+	} catch (IOException e) {
+		System.out.println(ERROR_MESSAGE);
+		System.exit(1);
+		}
+	}
+\end{lstlisting}
+		\column{5cm}
+		\begin{itemize}
+		\item FileReader öffnet die Datei \pause
+		\item BufferedReader nimmt den Datenstrom aus der Datei entgegen \pause \newline
+		$\shortrightarrow$ Datei lässt sich Zeilenweise auslesen \pause
+		\item Fehlerbehandlung muss hier geschehen, lernen wir aber erst nächstes Jahr \pause \newline
+		$\shortrightarrow$ Ihr könnt das nickend annehmen und benutzen \pause \newline
+		$\Rightarrow$ TODO euer Angriffspunkt 
+		\end{itemize}
+	\end{columns}
+\end{frame}
+
+\section{String API}
+\begin{frame}[fragile]{String API}
+Benötigte Theorie: \textbf{REGular EXpressions} (siehe GBI) hier erstmal Trennzeichen, wie z.Bsp.     . (Punkt) \pause
+\begin{block}{Werkzeugkasten, um Strings zu manipulieren}\pause
+\begin{itemize}
+	\item \lstinline{String[] split(String regex)} Trennt den String am Trennzeichen und liefert ein Array zurück\pause
+	\begin{lstlisting}[basicstyle=\scriptsize]
+	"boo:and:foo".split(":"); // Ergebnis: {" bo o ","and "," f o o "} 
+  "boo:and:foo".split("o"); // Ergebnis: {" b ",""," : and : f "} 
+	\end{lstlisting}  \pause
+	\item \lstinline{boolean matches(String regex)} Prüft, ob ein String dem regulären Ausdruck entspricht \pause
+	\begin{lstlisting}[basicstyle=\scriptsize]
+	"A1".matches([A-Z][0-9]) //true 
+	"a8".matches([A-Z][0-9]) //false 
+	\end{lstlisting} \pause
+	\item \lstinline{String toLowerCase()} Macht jedes Zeichen eines String klein\pause
+	\begin{itemize}
+		\item analog: \lstinline{String toUpperCase()} \pause
+	\end{itemize}
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\begin{frame}[fragile]{String API}
+\begin{block}{Werkzeugkasten, um Strings zu manipulieren} \pause
+\begin{itemize}
+\item \lstinline{String trim()} Entfernt Whitespaces am Anfang und am Ende des Strings \pause
+\item \lstinline{int compareTo} Lexikographischer Vergleich, d.h. alphabetisch \pause
+\end{itemize}	 \pause
+\begin{lstlisting}[basicstyle=\tiny]
+	"Adam".compareTo("Adam"); / / Ergebnis == 0 
+	"Adam".compareTo("Eva"); / / Ergebnis < 0 
+	"Eva".compareTo("Adam"); / / Ergebnis > 0 
+	"Adam".compareTo("adam"); / / Ergebnis < 0 
+	"Eva".compareTo("adam"); / / Ergebnis < 0 
+\end{lstlisting} 
+\end{block}
+\end{frame}
+
+\section{Quiz}
+\begin{frame}[fragile]{JahresAbschlussQuiz}
+\begin{itemize}
+	\item siehe pdf \newline 
+  \vspace{1cm}
+  \item Oder: Habt ihr noch WehWehchen, die wir uns anschauen sollen? \newline
+		\footnotesize Zum Beispiel: Listen, Sichtbarkeiten, sonstige Anliegen...?
+\end{itemize}
+
+\end{frame}
+
 
 
 \appendix
