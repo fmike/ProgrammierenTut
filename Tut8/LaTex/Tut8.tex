@@ -74,6 +74,8 @@
         keywordstyle=\color[rgb]{0,0,1},
         commentstyle=\color[rgb]{0.133,0.545,0.133},
         stringstyle=\color[rgb]{0.627,0.126,0.941},
+				showtabs=false,
+				tabsize=2,
 }
 \usepackage[utf8]{inputenc}
 \usepackage{stmaryrd}
@@ -127,11 +129,11 @@
 \end{itemize}
 \begin{block}{Lücke füllen und damit implizit löschen}\pause
 \begin{lstlisting}
-	  for(int j = indexFound; j < elements.length; j++) {
-			elements[j] = elements[j+1];
-		} 
-			lastElem--;
-				}
+ for(int j = indexFound; j < elements.length; j++) {
+    elements[j] = elements[j+1];
+ } 
+ lastElem--;
+ }
 \end{lstlisting}
 Führt zu einer Exception! Ähnlich auch in Aufgabenteil C \newline \pause
 $\Rightarrow$ Entweder: Nur bis zu (elements.length - 1) gehen und letztes Element außerhalb der for Schleife manipulieren \newline \pause
@@ -156,35 +158,34 @@ $\Rightarrow$ ODER : Indizierung anders wählen: elements[j-1] = elements[j] im 
 \end{frame}
 
 \section{FileReader}
-\begin{frame}[fragile]{FileReader}
+\begin{frame}[fragile,containsverbatim]{FileReader}
 \begin{columns}[c]
 \column[c]{5cm}
 \begin{lstlisting}[basicstyle=\tiny]
-
-	public static void main(String[] args) {
-	if (args.length != 1) {
-		System.out.println(USAGE);
-		System.exit(1);
-	}
-	FileReader in = null;
-	try {
-		in = new FileReader(args[0]);
-	} catch (FileNotFoundException e) {
-		System.out.println(ERROR_MESSAGE);
-		System.exit(1);
-	}
-		BufferedReader reader = new BufferedReader(in);
-	try {
-		String line = reader.readLine();
-		while (line != null) {
-		// TODO: process line here
-		line = reader.readLine();
-		}
-	} catch (IOException e) {
-		System.out.println(ERROR_MESSAGE);
-		System.exit(1);
-		}
-	}
+ public static void main(String[] args) {
+   
+	  if (args.length != 1) {
+     System.out.println(USAGE);
+     System.exit(1);
+   }
+   FileReader in = null;
+   try {
+     in = new FileReader(args[0]);
+   } catch (FileNotFoundException e) {
+     System.out.println(ERROR_MESSAGE);
+     System.exit(1);
+   }
+     BufferedReader reader = new BufferedReader(in);
+   try {
+     String line = reader.readLine();
+     while (line != null) {
+     // TODO: process line here
+     line = reader.readLine();
+   } catch (IOException e) {
+     System.out.println(ERROR_MESSAGE);
+     System.exit(1);
+   }
+ }
 \end{lstlisting}
 		\column{5cm}
 		\begin{itemize}
