@@ -206,8 +206,8 @@ Benötigte Theorie: \textbf{REGular EXpressions} (siehe GBI) hier erstmal Trennz
 \begin{itemize}
 	\item \lstinline{String[] split(String regex)} Trennt den String am Trennzeichen und liefert ein Array zurück\pause
 	\begin{lstlisting}[basicstyle=\scriptsize]
-	"boo:and:foo".split(":"); // Ergebnis: {" bo o ","and "," f o o "} 
-  "boo:and:foo".split("o"); // Ergebnis: {" b ",""," : and : f "} 
+	"boo:and:foo".split(":"); // Ergebnis: {"boo","and","foo"} 
+  "boo:and:foo".split("o"); // Ergebnis: {"b","",":and:f"} 
 	\end{lstlisting}  \pause
 	\item \lstinline{boolean matches(String regex)} Prüft, ob ein String dem regulären Ausdruck entspricht \pause
 	\begin{lstlisting}[basicstyle=\scriptsize]
