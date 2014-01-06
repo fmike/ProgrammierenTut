@@ -1,0 +1,313 @@
+%% LaTeX-Beamer template for KIT design
+%% by Erik Burger, Christian Hammer
+%% title picture by Klaus Krogmann
+%%
+%% version 2.1
+%%
+%% mostly compatible to KIT corporate design v2.0
+%% http://intranet.kit.edu/gestaltungsrichtlinien.php
+%%
+%% Problems, bugs and comments to
+%% burger@kit.edu
+
+\documentclass[18pt]{beamer}
+
+%% SLIDE FORMAT
+
+% use 'beamerthemekit' for standard 4:3 ratio
+% for widescreen slides (16:9), use 'beamerthemekitwide'
+
+\usepackage{templates/beamerthemekit}
+% \usepackage{templates/beamerthemekitwide}
+
+%% TITLE PICTURE
+
+% if a custom picture is to be used on the title page, copy it into the 'logos'
+% directory, in the line below, replace 'mypicture' with the 
+% filename (without extension) and uncomment the following line
+% (picture proportions: 63 : 20 for standard, 169 : 40 for wide
+% *.eps format if you use latex+dvips+ps2pdf, 
+% *.jpg/*.png/*.pdf if you use pdflatex)
+
+%\titleimage{mypicture}
+
+%% TITLE LOGO
+
+% for a custom logo on the front page, copy your file into the 'logos'
+% directory, insert the filename in the line below and uncomment it
+
+%\titlelogo{mylogo}
+
+% (*.eps format if you use latex+dvips+ps2pdf,
+% *.jpg/*.png/*.pdf if you use pdflatex)
+
+%% TikZ INTEGRATION
+
+% use these packages for PCM symbols and UML classes
+% \usepackage{templates/tikzkit}
+% \usepackage{templates/tikzuml}
+
+% the presentation starts here
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{textcomp}
+\definecolor{listinggray}{gray}{0.9}
+\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+\lstset{
+	language=Java,
+	backgroundcolor=\color{lbcolor},
+	tabsize=2,
+	rulecolor=,
+        basicstyle=\footnotesize,
+        aboveskip=5pt,
+        upquote=true,
+        columns=fixed,
+        showstringspaces=false,
+        extendedchars=true,
+        breaklines=true,
+        frame=single,
+        showtabs=false,
+        showspaces=false,
+        showstringspaces=false,
+        identifierstyle=\ttfamily,
+        keywordstyle=\color[rgb]{0,0,1},
+        commentstyle=\color[rgb]{0.133,0.545,0.133},
+        stringstyle=\color[rgb]{0.627,0.126,0.941},
+			}
+\setbeamercovered{covered}
+\usepackage[utf8]{inputenc}
+\usepackage{stmaryrd}
+
+\title[Prog Tut Nr. 9]{Tutorium Programmieren}
+\subtitle{Tut Nr.9: Vererbung}
+\author{Michael Friedrich}
+\date{07. / 09.01.2014}
+
+\institute{Institut f\"ur theoretische Informatik}
+% Bibliography
+
+\usepackage[citestyle=authoryear,bibstyle=numeric,hyperref,backend=biber]{biblatex}
+\addbibresource{templates/example.bib}
+\bibhang1em
+
+\begin{document}
+
+% change the following line to "ngerman" for German style date and logos
+\selectlanguage{ngerman}
+
+%title page
+\begin{frame}
+	\titlepage
+\end{frame}
+
+%table of contents
+\begin{frame}{Outline/Gliederung}
+
+	\tableofcontents
+\end{frame}
+
+\section{Übungsblatt4}
+\begin{frame}{Übungsblatt4}
+\begin{itemize}
+	\item Nutzt die öffentlichen Test als Hilfe \newline \pause
+	$\shortrightarrow$ Bei Abschlussaufgaben Abgabekriterium! \newline
+	ABER kein hardcoden!!! - Zählt als Betrugsversuch
+\end{itemize}
+\end{frame}
+
+\section{Vererbung}
+\begin{frame}[fragile]{Einführung}
+Wird genutzt, um Gleiches zu "`gruppieren"'
+\begin{exampleblock}{Beispiel}
+\begin{lstlisting}
+class Person {
+  String name;
+  int age;
+}
+class Student extends Person {
+	   int matriculation;
+  Tutor tutor;
+}
+class Tutor extends Student {
+	//hat auch name, age, matriculation
+	String name; //anderes name als Person.name!
+  Student[] students;
+}
+\end{lstlisting}
+\end{exampleblock}
+\color[rgb]{1,0,0}{ACHTUNG} Überschreiben von Attributen nicht möglich
+\end{frame}
+
+\begin{frame}[fragile]{Aufpassen!}
+\begin{itemize}
+\item Vererbung wird gerne falsch gemacht! $\Rightarrow$ immer IST-Beziehung
+\end{itemize}
+\begin{exampleblock}{SO NICHT}
+\begin{lstlisting}
+class Point {
+  int x, y;
+}
+class Linie extends Point {
+  int x2, y2; // huh?
+}
+\end{lstlisting}
+\end{exampleblock} \pause
+\begin{exampleblock}{Sondern?} \pause
+\begin{lstlisting}
+class Linie {
+  Point p1, p2; //HAT-Beziehung
+}
+\end{lstlisting}
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}[fragile]{Vererbung von Methoden}
+\begin{itemize}
+	\item habt ihr alle schon implizit genutzt, Beispiele? \pause
+	\begin{itemize}
+		\item \lstinline{toString, equals(Object o), ...} \pause
+	\end{itemize}
+	\item diese Methoden erbt JEDE Klasse von \lstinline{java.lang.Object} \pause \newline
+	Habt ihr schon überschrieben (daher @Override) \pause
+	\item Konstruktoren werden mitvererbt und \textbf{müssen immer} in der Subklasse implementiert werden \newline
+	$\shortrightarrow$ Zugriff auf den Oberklassen Methoden (also auch Konstruktor) über \lstinline{super()} \pause
+\end{itemize}
+\begin{exampleblock}{super}
+\begin{lstlisting}
+public Student(name, age, matriculation) {
+ super(name, age);
+	 this.matriculation = matriculatio;
+}
+\end{lstlisting}
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}[fragile]{Polymorphismus}
+\begin{itemize}
+	\item Eine Unterklasse kann alles, was die Oberklasse kann \newline
+	$\shortrightarrow$ exakt gleiche Methoden, auch wenn eventuell überschrieben \newline 
+\end{itemize}
+Beispiel: 
+\begin{lstlisting}[mathescape]
+	Student michael = new Student();
+	Person mike = michael; //Jeder Student IST also gleichzeitig eine Person 
+	Person anna = new Student();
+	Student anne = new Person(); $ \color[rgb]{1,0,0}{{\lightning} NEIN!}$
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Abstrakte (\lstinline{abstract}) Klassen}
+\begin{itemize}
+	\item Klassen: Nicht instantiierbar
+	\item Methoden: MÜSSEN in Subklasse instantiiert werden
+	\begin{itemize}
+		\item nur in abstrakten Klassen erlaubt \pause
+	\end{itemize}
+\end{itemize}
+\begin{lstlisting}
+	abstract class mammal {
+	//protected nur in erbenden Klassen sichtbar
+  protected String s = "schnaufen";
+
+  abstract public void breathe();
+}
+
+class human extends mammal {
+
+  public void breathe() {
+    System.out.print(s);
+  }
+}
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Interfaces - \lstinline{implements}}
+\begin{itemize}
+	\item ähnlich den abstrakten Klassen aber keine Attribute \pause
+	\item definieren Schnittstelle  
+	\begin{itemize}
+		\item also anderer Sinn als abstrakte Klassen!  \pause
+		\item definieren die Methoden, die eine Klasse implementieren \textbf{MUSS}
+	\end{itemize}
+\end{itemize}
+\begin{lstlisting}[mathescape]
+public interface Comparable {
+  boolean equals();
+  int compareTo();
+}
+public Letter implements Comparable {
+  char c;
+	
+  public boolean equals(Letter c) {
+    return this.c==c;
+  }
+}
+\end{lstlisting} \pause
+Methoden automatisch \lstinline{abstract} und \lstinline{public}
+\end{frame}
+
+\begin{frame}[fragile]{Interfaces}
+\begin{itemize}
+	\item Eine Klasse kann beliebig viele Interfaces implementieren \pause
+	\item Beziehung zwischen Interfaces über \lstinline{extends} möglich \pause
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Aufgabe}
+Tut Aufgabe zu Vererbung/Polymorphismus
+\end{frame}
+
+
+\section{Rekursion}
+\begin{frame}[fragile]{Rekursion}
+Bedeutung: Selbstaufruf einer Funktion \pause
+\begin{lstlisting}
+public class Fibs {
+
+  public static void main(String[] args) {
+    for (int i = 0; i < 10; ++i) {
+      System.out.println(fib(i));
+    }
+  }
+  public static long fib(final int n) {
+    if (n <= 1) {
+      return 1;
+    }
+    return fib(n - 1) + fib(n - 2);
+  }
+}
+\end{lstlisting} \pause
+Was passiert bei dem Aufruf von \lstinline{fib(4)}?
+\end{frame}
+
+\section{Generics}
+\begin{frame}[fragile]{Generics}
+Wie schon letztes Blatt gemerkt, ein Tool, um Gleiches zu komprimieren
+$\shortrightarrow$ Listen sind identisch, bis auf ihren Inhalt \pause
+\begin{lstlisting}
+public class SinglyLinkedList<E> {
+  private Node<E> head;
+
+  public void add(E object) {
+     Node<E> newNode = new Node<E>(object);
+     newNode.setNext(head);
+     head = newNode;
+  }
+}
+\end{lstlisting} \pause
+"`E"' ist dann durch euren gewünschter Datentyp ersetzbar, zB \lstinline{new SinglyLinkedList<Article>} \newline \pause
+Aufgabe: restliche Liste mit Generics implementieren
+\end{frame}
+
+
+\appendix
+\beginbackup
+
+%\begin{frame}[allowframebreaks]{References}
+%	\printbibliography
+%\end{frame}
+
+\backupend
+
+\end{document}
