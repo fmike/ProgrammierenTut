@@ -264,13 +264,7 @@ Tut Aufgabe zu Vererbung/Polymorphismus
 Bedeutung: Selbstaufruf einer Funktion \pause
 \begin{lstlisting}
 public class Fibs {
-
-  public static void main(String[] args) {
-    for (int i = 0; i < 10; ++i) {
-      System.out.println(fib(i));
-    }
-  }
-  public static long fib(final int n) {
+ public static int fib(final int n) {
     if (n <= 1) {
       return 1;
     }
@@ -278,7 +272,10 @@ public class Fibs {
   }
 }
 \end{lstlisting} \pause
-Was passiert bei dem Aufruf von \lstinline{fib(4)}?
+\begin{itemize}
+	\item Was passiert bei dem Aufruf von \lstinline{fib(4)}? \pause
+	\item Man braucht immer einen \textbf{terminierenden} Fall! 
+\end{itemize}
 \end{frame}
 
 \section{Generics}
