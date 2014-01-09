@@ -239,9 +239,12 @@ public interface Comparable {
 public Letter implements Comparable {
   char c;
 	
-  public boolean equals(Letter c) {
-    return this.c==c;
-  }
+  public boolean equals(Letter l) {
+    return this.c==l;
+  } 
+	public int compareTo(Letter l) {
+	  //zBsp alphabetisch steigend
+	}
 }
 \end{lstlisting} \pause
 Methoden automatisch \lstinline{abstract} und \lstinline{public}
