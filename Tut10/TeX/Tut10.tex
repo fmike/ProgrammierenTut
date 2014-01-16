@@ -1,0 +1,164 @@
+%% LaTeX-Beamer template for KIT design
+%% by Erik Burger, Christian Hammer
+%% title picture by Klaus Krogmann
+%%
+%% version 2.1
+%%
+%% mostly compatible to KIT corporate design v2.0
+%% http://intranet.kit.edu/gestaltungsrichtlinien.php
+%%
+%% Problems, bugs and comments to
+%% burger@kit.edu
+
+\documentclass[18pt]{beamer}
+
+%% SLIDE FORMAT
+
+% use 'beamerthemekit' for standard 4:3 ratio
+% for widescreen slides (16:9), use 'beamerthemekitwide'
+
+\usepackage{templates/beamerthemekit}
+% \usepackage{templates/beamerthemekitwide}
+
+%% TITLE PICTURE
+
+% if a custom picture is to be used on the title page, copy it into the 'logos'
+% directory, in the line below, replace 'mypicture' with the 
+% filename (without extension) and uncomment the following line
+% (picture proportions: 63 : 20 for standard, 169 : 40 for wide
+% *.eps format if you use latex+dvips+ps2pdf, 
+% *.jpg/*.png/*.pdf if you use pdflatex)
+
+%\titleimage{mypicture}
+
+%% TITLE LOGO
+
+% for a custom logo on the front page, copy your file into the 'logos'
+% directory, insert the filename in the line below and uncomment it
+
+%\titlelogo{mylogo}
+
+% (*.eps format if you use latex+dvips+ps2pdf,
+% *.jpg/*.png/*.pdf if you use pdflatex)
+
+%% TikZ INTEGRATION
+
+% use these packages for PCM symbols and UML classes
+% \usepackage{templates/tikzkit}
+% \usepackage{templates/tikzuml}
+
+% the presentation starts here
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{textcomp}
+\definecolor{listinggray}{gray}{0.9}
+\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+\lstset{
+	language=Java,
+	backgroundcolor=\color{lbcolor},
+	tabsize=4,
+	rulecolor=,
+        basicstyle=\footnotesize,
+        aboveskip=5pt,
+        upquote=true,
+        columns=fixed,
+        showstringspaces=false,
+        extendedchars=true,
+        breaklines=true,
+        frame=single,
+        showtabs=false,
+        showspaces=false,
+        showstringspaces=false,
+        identifierstyle=\ttfamily,
+        keywordstyle=\color[rgb]{0,0,1},
+        commentstyle=\color[rgb]{0.133,0.545,0.133},
+        stringstyle=\color[rgb]{0.627,0.126,0.941},
+}
+%\setbeamercovered{covered}
+
+\usepackage[utf8]{inputenc}
+\usepackage{stmaryrd}
+
+\title[Prog Tut Nr. 10]{Tutorium Programmieren}
+\subtitle{Tut Nr.10: Iterator, Übungen}
+\author{Michael Friedrich}
+\date{14. / 16.01.2014}
+
+\institute{Institut f\"ur theoretische Informatik}
+% Bibliography
+
+\usepackage[citestyle=authoryear,bibstyle=numeric,hyperref,backend=biber]{biblatex}
+\addbibresource{templates/example.bib}
+\bibhang1em
+
+\begin{document}
+
+% change the following line to "ngerman" for German style date and logos
+\selectlanguage{ngerman}
+
+%title page
+\begin{frame}
+	\titlepage
+\end{frame}
+
+%table of contents
+\begin{frame}{Outline/Gliederung}
+
+	\tableofcontents
+\end{frame}
+
+\section{Nachtrag}
+\begin{frame}{Nachtrag}
+\begin{itemize}
+	\item Mehrfachvererbung ist in Java NICHT möglich!
+	\begin{itemize}
+	\item Wäre auch sehr schwer, sauber zu modellieren
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+\section{java.util}
+\begin{frame}[fragile]{Iterator}
+\begin{itemize}
+	\item wenn ihr java.util.LinkedList z.B. verwendet, könnt ihr euch einen Iterator "`holen"', um darüber zu iterieren \pause
+\end{itemize}
+\begin{exampleblock}{Iterator$<$E$>$}
+\begin{lstlisting}
+LinkedList<String> list = new LinkedList<String>();
+list.add("a");
+list.add("b");
+list.add("c");
+list.add("d");
+list.add("e");
+
+Iterator<String> iter = list.iterator();
+
+while (iter.hasNext()){
+   System.out.println(iter.next());
+}
+\end{lstlisting}
+\end{exampleblock}
+\end{frame}
+
+\section{Übungen?}
+\begin{frame}
+Fragen?? - Wenn nicht, worauf habt ihr Lust?
+\begin{itemize}
+	\item Vererbung?
+	\item Rekursion?
+	\item sonstiges? zB Quiztime ?:D
+\end{itemize}
+\end{frame}
+
+
+\appendix
+\beginbackup
+
+%\begin{frame}[allowframebreaks]{References}
+%	\printbibliography
+%\end{frame}
+
+\backupend
+
+\end{document}

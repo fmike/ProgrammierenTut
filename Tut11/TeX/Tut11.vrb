@@ -1,0 +1,25 @@
+\frametitle{java.util}
+Java bietet von sich aus schon sehr viel Funktionalität, z.Bsp LinkedList. \pause
+\begin{example}{weitere eingebaute Datenstrukturen} \pause
+\begin{itemize}
+\item Collections: ungeordneter Pool an Objekten
+\begin{itemize}
+\item \lstinline{Collection<Product> products;} \pause
+\end{itemize}
+\item SortedSet: Menge mit totaler Ordnung
+\begin{itemize}
+\item \lstinline{SortedSet<Product> products;} \pause
+\item Product MUSS hier Comparable$<$Product$>$ implementieren \pause
+\end{itemize}
+\item ArrayList: ähnlich LinkedList, aber mit Index
+\begin{itemize}
+\item \lstinline{ArrayList<Product> products;} \pause
+\end{itemize}
+\item Maps: key-value Paare
+\begin{itemize}
+\item \lstinline{TreeMap<Product, Customer> orders;}
+\item \lstinline{HashMap<Product, Customer> orders;}
+\end{itemize}
+\end{itemize}
+\end{example}
+Nehmt die Hinweise auf dem Übungsblatt als Einstiegspunkt.

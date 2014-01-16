@@ -1,0 +1,185 @@
+%% LaTeX-Beamer template for KIT design
+%% by Erik Burger, Christian Hammer
+%% title picture by Klaus Krogmann
+%%
+%% version 2.1
+%%
+%% mostly compatible to KIT corporate design v2.0
+%% http://intranet.kit.edu/gestaltungsrichtlinien.php
+%%
+%% Problems, bugs and comments to
+%% burger@kit.edu
+
+\documentclass[18pt]{beamer}
+
+%% SLIDE FORMAT
+
+% use 'beamerthemekit' for standard 4:3 ratio
+% for widescreen slides (16:9), use 'beamerthemekitwide'
+
+\usepackage{templates/beamerthemekit}
+% \usepackage{templates/beamerthemekitwide}
+
+%% TITLE PICTURE
+
+% if a custom picture is to be used on the title page, copy it into the 'logos'
+% directory, in the line below, replace 'mypicture' with the 
+% filename (without extension) and uncomment the following line
+% (picture proportions: 63 : 20 for standard, 169 : 40 for wide
+% *.eps format if you use latex+dvips+ps2pdf, 
+% *.jpg/*.png/*.pdf if you use pdflatex)
+
+%\titleimage{mypicture}
+
+%% TITLE LOGO
+
+% for a custom logo on the front page, copy your file into the 'logos'
+% directory, insert the filename in the line below and uncomment it
+
+%\titlelogo{mylogo}
+
+% (*.eps format if you use latex+dvips+ps2pdf,
+% *.jpg/*.png/*.pdf if you use pdflatex)
+
+%% TikZ INTEGRATION
+
+% use these packages for PCM symbols and UML classes
+% \usepackage{templates/tikzkit}
+% \usepackage{templates/tikzuml}
+
+% the presentation starts here
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{textcomp}
+\definecolor{listinggray}{gray}{0.9}
+\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+\lstset{
+	language=Java,
+	backgroundcolor=\color{lbcolor},
+	tabsize=4,
+	rulecolor=,
+        basicstyle=\footnotesize,
+        aboveskip=5pt,
+        upquote=true,
+        columns=fixed,
+        showstringspaces=false,
+        extendedchars=true,
+        breaklines=true,
+        frame=single,
+        showtabs=false,
+        showspaces=false,
+        showstringspaces=false,
+        identifierstyle=\ttfamily,
+        keywordstyle=\color[rgb]{0,0,1},
+        commentstyle=\color[rgb]{0.133,0.545,0.133},
+        stringstyle=\color[rgb]{0.627,0.126,0.941},
+}
+%\setbeamercovered{covered}
+
+\usepackage[utf8]{inputenc}
+\usepackage{stmaryrd}
+\setbeamercovered{covered}
+
+\title[Prog Tut Nr. 11]{Tutorium Programmieren}
+\subtitle{Tut Nr.11: Exceptions, java.util}
+\author{Michael Friedrich}
+\date{21. / 23.11.2013}
+
+\institute{Institut f\"ur theoretische Informatik}
+% Bibliography
+
+\usepackage[citestyle=authoryear,bibstyle=numeric,hyperref,backend=biber]{biblatex}
+\addbibresource{templates/example.bib}
+\bibhang1em
+
+\begin{document}
+
+% change the following line to "ngerman" for German style date and logos
+\selectlanguage{ngerman}
+
+%title page
+\begin{frame}
+	\titlepage
+\end{frame}
+
+%table of contents
+\begin{frame}{Outline/Gliederung}
+
+	\tableofcontents
+\end{frame}
+
+\section{Exceptions}
+\begin{frame}[fragile]{Exceptions}
+\begin{lstlisting}
+public static void main(String[] args) {
+   String input = "";
+   BufferedReader buf = new BufferedReader( new InputStreamReader(System.in));
+   while(!input.equals("quit")) {  
+     try {
+       input = buf.readLine();
+     } catch (IOException e1) {
+       System.out.println("unable to read - shutting down...");
+			 input = "quit";
+     }
+     try {
+       int i = Integer.parseInt(input);
+     } catch (NumberFormatException e) {
+       System.out.println("Eingabe war keine Zahl!");
+     }
+   }
+  System.out.println("shutting down...");
+}\end{lstlisting}
+\end{frame}
+
+\begin{frame}{Was war bei dem Beispiel wichtig?!}
+\pause
+\begin{itemize}
+	\item Programm stürzt nie unkontrolliert ab \pause
+	\item User wird über seine Fehler informiert und kann diese verbessern  \pause
+\end{itemize} \pause
+Wir als Programmierer müssen unfähigen User (und Kollegen...) entgegen arbeiten. \newline  
+Beispiel?  \pause NullPointer abfangen, falsche Werte geliefert, falsche Formattierung...
+
+%%Bild user <--> programmers
+\end{frame}
+
+\section{java.util}
+\begin{frame}[fragile]{java.util}
+Java bietet von sich aus schon sehr viel Funktionalität, z.Bsp LinkedList. \pause
+\begin{example}{weitere eingebaute Datenstrukturen} \pause
+\begin{itemize}
+	\item Collections: ungeordneter Pool an Objekten 
+	\begin{itemize}
+		\item \lstinline{Collection<Product> products;} \pause
+	\end{itemize}
+	\item SortedSet: Menge mit totaler Ordnung
+	\begin{itemize}
+		\item \lstinline{SortedSet<Product> products;} \pause
+		\item Product MUSS hier Comparable$<$Product$>$ implementieren \pause
+	\end{itemize}
+	\item ArrayList: ähnlich LinkedList, aber mit Index
+	\begin{itemize}
+		\item \lstinline{ArrayList<Product> products;} \pause
+	\end{itemize}
+	\item Maps: key-value Paare 
+	\begin{itemize}
+		\item \lstinline{TreeMap<Product, Customer> orders;}
+		\item \lstinline{HashMap<Product, Customer> orders;}
+	\end{itemize}
+\end{itemize}
+\end{example}
+Nehmt die Hinweise auf dem Übungsblatt als Einstiegspunkt.
+\end{frame}
+
+
+\appendix
+\beginbackup
+
+%\begin{frame}[allowframebreaks]{References}
+%	\printbibliography
+%\end{frame}
+
+\backupend
+
+\end{document}
