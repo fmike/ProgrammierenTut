@@ -140,6 +140,7 @@ Wichtig bei:
 \end{itemize}
 \end{frame}
 
+\subsection{generelle Fehlerbehandlung}
 \begin{frame}[fragile]{Fehlerbehandlung}
 	\textbf{Eine Möglichkeit:} Prüfen mittels if-Abfragen
   \begin{lstlisting}
@@ -220,6 +221,7 @@ public int positivMultiply(int x, int y) throws IllegalArgumentException {
   \end{lstlisting}
 \end{frame}
 
+\subsection{try-catch-finally}
 \begin{frame}[fragile]{For when you just Gotta Catch 'Em All}
 	\begin{figure}%
   \includegraphics[width=0.5\columnwidth]{pokemon.jpeg}%
@@ -233,6 +235,7 @@ public int positivMultiply(int x, int y) throws IllegalArgumentException {
   \end{lstlisting}
 \end{frame}
 
+\subsection{Exceptions vs Errors}
 \begin{frame}[fragile]{Exceptions vs Errors}
 	\begin{block}{RuntimeException}
     \begin{itemize}
@@ -330,6 +333,45 @@ Java bietet von sich aus schon sehr viel Funktionalität, z.Bsp LinkedList. \pau
 Nehmt die Hinweise auf dem Übungsblatt als Einstiegspunkt.
 \end{frame}
 
+\subsection{Theorie: dynamische Programmierung}
+\begin{frame}{dynamische Programmierung}
+Was ist das?
+	\begin{itemize}
+    \item \textbf{kein} Programmierparadigma
+    \item sondern:
+    \begin{itemize}
+      \item Methode zum Lösen von Optimierungsproblemen
+      \item benutzt "Divide and Conquer"
+      \item wichtig: Gesamtproblem muss ich aus kleineren Teilproblemen zusammensetzen lassen!
+      \item speichere Werte kleinerer Probleme in Tabelle ab
+    \end{itemize}
+    \item[] $\Rightarrow$ Begegnet euch wieder in Algorithmen 1 (2. Semester)
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{DP: Beispielaufgabe}
+	\begin{block}{Levenshtein-Distanz}
+    Die \textbf{Levenshtein-Distanz} (auch \textbf{Editierdistanz}) zwischen zwei Zeichenketten ist die minimale Anzahl von \textcolor[rgb]{0,0,1}{Einfüge}-, \textcolor[rgb]{0,0,1}{Lösch-} und \textcolor[rgb]{0,0,1}{Ersetz}-Operationen, um die erste Zeichenkette in die zweite umzuwandeln
+  \end{block}
+  \pause
+  Beispiel: Levenshtein-Distanz von \textcolor[rgb]{0,0.58,0}{"`Tier"'} und \textcolor[rgb]{0,0.58,0}{"`Tor"'}
+  \begin{enumerate}
+    \item \textcolor[rgb]{0,0.58,0}{"`Tier"'}
+    \item \textcolor[rgb]{0,0.58,0}{"`Toer"'} (Ersetze i durch o)
+    \item \textcolor[rgb]{0,0.58,0}{"`Tor"'} (Lösche e)
+  \end{enumerate}
+  \pause
+  elegant zu lösen mittels dynamischer Programmierung!
+\end{frame}
+
+\begin{frame}{DP: Beispielaufgabe}
+	\textbf{Eingabe:} Zeichenketten $u$ und $v$\\
+  \textbf{Matrixeinträge} $D_{i,j}$ speichern die Distanz der Präfixe $u_{0,i}$ und $v_{0,j}$.\\
+  Die Distanz-Werte berechnen sich wie folgt:
+  \begin{figure}%
+  \includegraphics[width=0.6\columnwidth]{distance.png}%
+  \end{figure}
+\end{frame}
 
 \appendix
 \beginbackup
