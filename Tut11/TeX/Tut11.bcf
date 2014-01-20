@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="2.0" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="2.3" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
-      <bcf:key>bblencoding</bcf:key>
+      <bcf:key>output_encoding</bcf:key>
       <bcf:value>utf8</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>bibencoding</bcf:key>
+      <bcf:key>input_encoding</bcf:key>
       <bcf:value>utf8</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -143,19 +143,9 @@
       <bcf:value>0</bcf:value>
     </bcf:option>
   </bcf:options>
-  <!-- DISPLAYMODES -->
-  <bcf:displaymodes type="global">
-    <bcf:displaymode>
-      <bcf:dtarget>*</bcf:dtarget>
-      <bcf:dmode order="1">original</bcf:dmode>
-      <bcf:dmode order="2">romanised</bcf:dmode>
-      <bcf:dmode order="3">uniform</bcf:dmode>
-      <bcf:dmode order="4">translated</bcf:dmode>
-    </bcf:displaymode>
-  </bcf:displaymodes>
   <!-- SOURCEMAP -->
   <bcf:sourcemap>
-    <bcf:maps datatype="bibtex" driver_defaults="1">
+    <bcf:maps datatype="bibtex" level="driver">
       <bcf:map>
         <bcf:map_step map_type_source="conference" map_type_target="inproceedings"/>
         <bcf:map_step map_type_source="electronic" map_type_target="online"/>
@@ -184,7 +174,7 @@
         <bcf:map_step map_field_source="pdf" map_field_target="file"/>
       </bcf:map>
     </bcf:maps>
-    <bcf:maps datatype="endnotexml" driver_defaults="1">
+    <bcf:maps datatype="endnotexml" level="driver">
       <bcf:map>
         <bcf:map_step map_type_source="Aggregated Database" map_type_target="misc"/>
         <bcf:map_step map_type_source="Ancient Text" map_type_target="misc"/>
@@ -307,7 +297,7 @@
         <bcf:map_step map_field_source="titles/tertiary-title" map_field_target="titles/series"/>
       </bcf:map>
     </bcf:maps>
-    <bcf:maps datatype="ris" driver_defaults="1">
+    <bcf:maps datatype="ris" level="driver">
       <bcf:map>
         <bcf:map_step map_type_source="ART" map_type_target="artwork"/>
         <bcf:map_step map_type_source="BILL" map_type_target="jurisdiction"/>
@@ -366,7 +356,7 @@
         <bcf:map_step map_field_source="L1" map_field_target="file"/>
       </bcf:map>
     </bcf:maps>
-    <bcf:maps datatype="zoterordfxml" driver_defaults="1">
+    <bcf:maps datatype="zoterordfxml" level="driver">
       <bcf:map>
         <bcf:map_step map_type_source="conferencePaper" map_type_target="inproceedings"/>
         <bcf:map_step map_type_source="bookSection" map_type_target="inbook"/>
@@ -594,6 +584,7 @@
       <bcf:field source="options" skip="true"/>
       <bcf:field source="presort" skip="true"/>
       <bcf:field source="related" skip="true"/>
+      <bcf:field source="relatedoptions" skip="true"/>
       <bcf:field source="relatedstring" skip="true"/>
       <bcf:field source="relatedtype" skip="true"/>
       <bcf:field source="shorthand" skip="true"/>
@@ -680,7 +671,7 @@
       <bcf:entrytype>thesis</bcf:entrytype>
       <bcf:entrytype>unpublished</bcf:entrytype>
       <bcf:entrytype>video</bcf:entrytype>
-      <bcf:entrytype>xdata</bcf:entrytype>
+      <bcf:entrytype skip_output="true">xdata</bcf:entrytype>
     </bcf:entrytypes>
     <bcf:fields>
       <bcf:field fieldtype="field" datatype="integer">day</bcf:field>
@@ -743,8 +734,8 @@
       <bcf:field fieldtype="field" datatype="literal">pagetotal</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">part</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">related</bcf:field>
-      <bcf:field fieldtype="field" datatype="literal">relatedtype</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">relatedstring</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">relatedtype</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">reprinttitle</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">series</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">shorthand</bcf:field>
@@ -832,12 +823,13 @@
       <bcf:field fieldtype="field" datatype="verbatim">doi</bcf:field>
       <bcf:field fieldtype="field" datatype="verbatim">eprint</bcf:field>
       <bcf:field fieldtype="field" datatype="verbatim">file</bcf:field>
-      <bcf:field fieldtype="field" datatype="verbatim">url</bcf:field>
       <bcf:field fieldtype="field" datatype="verbatim">verba</bcf:field>
       <bcf:field fieldtype="field" datatype="verbatim">verbb</bcf:field>
       <bcf:field fieldtype="field" datatype="verbatim">verbc</bcf:field>
+      <bcf:field fieldtype="field" datatype="uri">url</bcf:field>
       <bcf:field fieldtype="field" datatype="csv">keywords</bcf:field>
       <bcf:field fieldtype="field" datatype="csv" skip_output="true">options</bcf:field>
+      <bcf:field fieldtype="field" datatype="csv" skip_output="true">relatedoptions</bcf:field>
       <bcf:field fieldtype="field" datatype="range">pages</bcf:field>
       <bcf:field fieldtype="field" datatype="code">execute</bcf:field>
     </bcf:fields>
@@ -882,8 +874,9 @@
       <bcf:field>pagination</bcf:field>
       <bcf:field>presort</bcf:field>
       <bcf:field>related</bcf:field>
-      <bcf:field>relatedtype</bcf:field>
+      <bcf:field>relatedoptions</bcf:field>
       <bcf:field>relatedstring</bcf:field>
+      <bcf:field>relatedtype</bcf:field>
       <bcf:field>shortauthor</bcf:field>
       <bcf:field>shorteditor</bcf:field>
       <bcf:field>shorthand</bcf:field>

@@ -1,6 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\beamer@endinputifotherversion {3.22pt}
+\beamer@endinputifotherversion {3.26pt}
 \defcounter {refsection}{0}\relax 
 \select@language {ngerman}
 \defcounter {refsection}{0}\relax 
@@ -8,4 +8,4 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Exceptions}{3}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{java.util}{10}{0}{2}
+\beamer@sectionintoc {2}{java.util}{26}{0}{2}

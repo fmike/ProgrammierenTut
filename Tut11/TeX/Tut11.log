@@ -1,28 +1,31 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.20)  16 JAN 2014 17:13
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.22)  20 JAN 2014 17:26
 entering extended mode
 **Tut11.tex
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.tex
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
-, bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
-ian, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, icelandic, indonesian, interlingua, irish, italian,
- kannada, kurmanji, lao, latin, latvian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ng
-erman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, s
-lovenian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishm
-ax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamer.cls"
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasercs.sty"
-Package: beamerbasercs 2012/09/19 (rcs-revision 9cdb60d8ebed)
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamer.cls
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasercs.sty
+Package: beamerbasercs 2013/01/04 (rcs-revision 9a97a4eee358)
 )
-Document Class: beamer 2011/09/12 development version 3.22 A class for typesetting presentations (rcs-revision 70f9d8411
-e54)
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasemodes.sty"
+Document Class: beamer 2013/01/04 3.26 A class for typesetting presentations (r
+cs-revision e81e0c94bcc6)
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasemodes.sty
 Package: beamerbasemodes 2012/04/15 (rcs-revision cc6557182d97)
 \beamer@tempbox=\box26
 \beamer@tempcount=\count79
 \c@beamerpauses=\count80
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasedecode.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasedecode.sty
 Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
 \beamer@slideinframe=\count81
 \beamer@minimum=\count82
@@ -30,7 +33,7 @@ Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
 \beamer@commentbox=\box27
 \beamer@modecount=\count83
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(D:\Programme\MiKTex\tex\generic\oberdiek\ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -77,24 +80,24 @@ Package ifpdf Info: pdfTeX in PDF mode is detected.
 \beamer@sectionadjust=\count100
 \beamer@tocsectionnumber=\count101
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbaseoptions.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbaseoptions.sty
 Package: beamerbaseoptions 2010/04/27 (rcs-revision 982469101dd6)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(D:\Programme\MiKTex\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
 \beamer@paperwidth=\skip42
 \beamer@paperheight=\skip43
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+(D:\Programme\MiKTex\tex\latex\geometry\geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+(D:\Programme\MiKTex\tex\generic\oberdiek\ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(D:\Programme\MiKTex\tex\generic\ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count102
@@ -110,29 +113,32 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen126
 \Gm@dimlist=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo
-"
+(D:\Programme\MiKTex\tex\latex\geometry\geometry.cfg))
+(D:\Programme\MiKTex\tex\latex\base\size11.clo
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
-) (C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.sty
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+)
+(D:\Programme\MiKTex\tex\latex\pgf\basiclayer\pgfcore.sty
+(D:\Programme\MiKTex\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(D:\Programme\MiKTex\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
- ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+
+(D:\Programme\MiKTex\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+)
+(D:\Programme\MiKTex\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(D:\Programme\MiKTex\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(D:\Programme\MiKTex\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(D:\Programme\MiKTex\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count105
@@ -140,28 +146,28 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen127
 \Gin@req@width=\dimen128
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.sty
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-common.tex
+(D:\Programme\MiKTex\tex\latex\pgf\systemlayer\pgfsys.sty
+(D:\Programme\MiKTex\tex\latex\pgf\utilities\pgfrcs.sty
+(D:\Programme\MiKTex\tex\generic\pgf\utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks16
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-latex.def
+(D:\Programme\MiKTex\tex\generic\pgf\utilities\pgfutil-latex.def
 \pgfutil@abb=\box34
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+(D:\Programme\MiKTex\tex\latex\ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\utilities\pgfrcs.code.tex
 Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
 ))
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\systemlayer\pgfsys.code.tex
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks17
 \pgfkeys@temptoks=\toks18
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks19
 ))
 \pgf@x=\dimen129
@@ -179,28 +185,29 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 \c@pgf@countc=\count108
 \c@pgf@countd=\count109
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
+(D:\Programme\MiKTex\tex\generic\pgf\systemlayer\pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+(D:\Programme\MiKTex\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+(D:\Programme\MiKTex\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
 \pgfsyssoftpath@smallbuffer@items=\count110
 \pgfsyssoftpath@bigbuffer@items=\count111
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+(D:\Programme\MiKTex\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
- ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+
+(D:\Programme\MiKTex\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -213,13 +220,14 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-) (C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+)
+(D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcore.code.tex
 Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.tex
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.code.tex
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.code.tex)
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\math\pgfmath.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\math\pgfmathcalc.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\math\pgfmathutil.code.tex)
+(D:\Programme\MiKTex\tex\generic\pgf\math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen137
 \pgfmath@count=\count112
 \pgfmath@box=\box35
@@ -227,18 +235,18 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks21
 \pgfmath@stack@operation=\toks22
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex)
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex)
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.random.code.tex)
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex)
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.tex)
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.tex)
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex)))
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\math\pgfmathfunctions.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex)
+(D:\Programme\MiKTex\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.t
+ex) (D:\Programme\MiKTex\tex\generic\pgf\math\pgfmathfunctions.random.code.tex)
+(D:\Programme\MiKTex\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex)
+(D:\Programme\MiKTex\tex\generic\pgf\math\pgfmathfunctions.base.code.tex)
+(D:\Programme\MiKTex\tex\generic\pgf\math\pgfmathfunctions.round.code.tex)
+(D:\Programme\MiKTex\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex)))
+(D:\Programme\MiKTex\tex\generic\pgf\math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count113
 ))
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@picminx=\dimen138
 \pgf@picmaxx=\dimen139
@@ -255,78 +263,77 @@ File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@zx=\dimen150
 \pgf@zy=\dimen151
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
 \pgf@path@lastx=\dimen152
 \pgf@path@lasty=\dimen153
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
 \pgf@shorten@end@additional=\dimen154
 \pgf@shorten@start@additional=\dimen155
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 \pgfpic=\box36
 \pgf@hbox=\box37
 \pgf@layerbox@main=\box38
 \pgf@picture@serial@count=\count114
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
 \pgflinewidth=\dimen156
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
 \pgf@pt@x=\dimen157
 \pgf@pt@y=\dimen158
 \pgf@pt@temp=\dimen159
-)
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+) (D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
-)
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+) (D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
 \pgf@max=\dimen160
 \pgf@sys@shading@range@num=\count115
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
 \pgfexternal@startupbox=\box39
 ))
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+(D:\Programme\MiKTex\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\xxcolor.sty
+(D:\Programme\MiKTex\tex\latex\pgf\utilities\xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
 \XC@nummixins=\count116
 \XC@countmixins=\count117
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+(D:\Programme\MiKTex\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+(D:\Programme\MiKTex\tex\generic\oberdiek\hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+
+(D:\Programme\MiKTex\tex\generic\oberdiek\hobsub-generic.sty
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -343,13 +350,15 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
 Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
 Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
@@ -363,49 +372,54 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(D:\Programme\MiKTex\tex\latex\oberdiek\auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(D:\Programme\MiKTex\tex\latex\oberdiek\kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen161
 \Hy@linkcounter=\count118
 \Hy@pagecounter=\count119
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+(D:\Programme\MiKTex\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count120
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+(D:\Programme\MiKTex\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `bookmarks' set `true' on input line 3941.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 3941.
-Package hyperref Info: Option `implicit' set `false' on input line 3941.
-Package hyperref Info: Hyper figures OFF on input line 4062.
-Package hyperref Info: Link nesting OFF on input line 4067.
-Package hyperref Info: Hyper index ON on input line 4070.
-Package hyperref Info: Plain pages OFF on input line 4077.
-Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4319.
+Package hyperref Info: Option `implicit' set `false' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
-Package hyperref Info: Bookmarks ON on input line 4300.
+Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count121
- ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+
+(D:\Programme\MiKTex\tex\latex\ltxmisc\url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4653.
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen162
 \Fld@menulength=\count122
-\Field@Width=\dimen162
-\Fld@charsize=\dimen163
-Package hyperref Info: Hyper figures OFF on input line 5773.
-Package hyperref Info: Link nesting OFF on input line 5778.
-Package hyperref Info: Hyper index ON on input line 5781.
-Package hyperref Info: backreferencing OFF on input line 5788.
-Package hyperref Info: Link coloring OFF on input line 5793.
-Package hyperref Info: Link coloring with OCG OFF on input line 5798.
-Package hyperref Info: PDF/A mode OFF on input line 5803.
-LaTeX Info: Redefining \ref on input line 5843.
-LaTeX Info: Redefining \pageref on input line 5847.
+\Field@Width=\dimen163
+\Fld@charsize=\dimen164
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
 \Hy@abspage=\count123
 
 
@@ -415,28 +429,29 @@ Package hyperref Message: Stopped early.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+(D:\Programme\MiKTex\tex\latex\hyperref\hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count124
 \c@bookmark@seq@number=\count125
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+(D:\Programme\MiKTex\tex\latex\oberdiek\rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbaserequires.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbaserequires.sty
 Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasecompatibility.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasecompatibility.sty
 Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasefont.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasefont.sty
 Package: beamerbasefont 2012/09/19  (rcs-revision 733629cd0c6c)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(D:\Programme\MiKTex\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(D:\Programme\MiKTex\tex\latex\amsfonts\amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks23
 \symAMSa=\mathgroup4
@@ -444,104 +459,104 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 )))
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasetranslator.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasetranslator.sty
 Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\translator\translator.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\translator\translator.sty
 Package: translator 2010/06/12 ver 1.10
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\translator\translator-language-mappings.tex")))
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasemisc.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\translator\translator-language-mappi
+ngs.tex))) (D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasemisc.sty
 Package: beamerbasemisc 2012/02/24  (rcs-revision 2ff5461be705)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasetwoscreens.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasetwoscreens.sty
 Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbaseoverlay.sty"
-Package: beamerbaseoverlay 2012/04/03  (rcs-revision 45744d9ae88b)
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbaseoverlay.sty
+Package: beamerbaseoverlay 2012/11/11  (rcs-revision 6afbc49b1109)
 \beamer@argscount=\count126
 \beamer@lastskipcover=\skip44
 \beamer@trivlistdepth=\count127
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasetitle.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasetitle.sty
 Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasesection.sty"
-Package: beamerbasesection 2012/05/30  (rcs-revision 22ff49def670)
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasesection.sty
+Package: beamerbasesection 2013/01/04  (rcs-revision 54309ceef997)
 \c@lecture=\count128
 \c@part=\count129
 \c@section=\count130
 \c@subsection=\count131
 \c@subsubsection=\count132
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbaseframe.sty"
-Package: beamerbaseframe 2012/09/13  (rcs-revision dcd846607320)
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbaseframe.sty
+Package: beamerbaseframe 2012/12/26  (rcs-revision 1443917db2cf)
 \beamer@framebox=\box40
 \beamer@frametitlebox=\box41
 \beamer@zoombox=\box42
 \beamer@zoomcount=\count133
 \beamer@zoomframecount=\count134
-\beamer@frametextheight=\dimen164
+\beamer@frametextheight=\dimen165
 \c@subsectionslide=\count135
 \beamer@frametopskip=\skip45
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
 \beamer@envbody=\toks24
-\framewidth=\dimen165
+\framewidth=\dimen166
 \c@framenumber=\count136
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbaseverbatim.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbaseverbatim.sty
 Package: beamerbaseverbatim 2012/08/30  (rcs-revision dfdb135076b3)
 \beamer@verbatimfileout=\write4
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbaseframesize.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbaseframesize.sty
 Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
 \beamer@splitbox=\box43
 \beamer@autobreakcount=\count137
-\beamer@autobreaklastheight=\dimen166
+\beamer@autobreaklastheight=\dimen167
 \beamer@frametitletoks=\toks25
 \beamer@framesubtitletoks=\toks26
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbaseframecomponents.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbaseframecomponents.sty
 Package: beamerbaseframecomponents 2012/09/13  (rcs-revision dcd846607320)
 \beamer@footins=\box44
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasecolor.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasecolor.sty
 Package: beamerbasecolor 2010/06/06  (rcs-revision d1a9b48be06d)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasenotes.sty"
-Package: beamerbasenotes 2010/05/01  (rcs-revision efa082c6111d)
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasenotes.sty
+Package: beamerbasenotes 2012/12/19  (rcs-revision 1686da3db3c9)
 \beamer@frameboxcopy=\box45
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasetoc.sty"
-Package: beamerbasetoc 2012/02/28  (rcs-revision 138681b92320)
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasetoc.sty
+Package: beamerbasetoc 2012/10/02  (rcs-revision 5ed0f4010e8a)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasetemplates.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasetemplates.sty
 Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
 \beamer@sbttoks=\toks27
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbaseauxtemplates.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbaseauxtemplates.sty
 Package: beamerbaseauxtemplates 2012/05/01  (rcs-revision 67c48b3b652d)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbaseboxes.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbaseboxes.sty
 Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
 \bmb@box=\box46
 \bmb@colorbox=\box47
 \bmb@boxshadow=\box48
 \bmb@boxshadowball=\box49
 \bmb@boxshadowballlarge=\box50
-\bmb@temp=\dimen167
-\bmb@dima=\dimen168
-\bmb@dimb=\dimen169
-\bmb@prevheight=\dimen170
+\bmb@temp=\dimen168
+\bmb@dima=\dimen169
+\bmb@dimb=\dimen170
+\bmb@prevheight=\dimen171
 )
-\beamer@blockheadheight=\dimen171
+\beamer@blockheadheight=\dimen172
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbaselocalstructure.sty"
-Package: beamerbaselocalstructure 2012/05/25  (rcs-revision 5ff5e8ed7c0e)
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbaselocalstructure.sty
+Package: beamerbaselocalstructure 2012/11/13  (rcs-revision ddfba79dac19)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+(D:\Programme\MiKTex\tex\latex\tools\enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks28
 )
@@ -550,29 +565,31 @@ Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasenavigation.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasenavigation.sty
 Package: beamerbasenavigation 2012/04/03  (rcs-revision 42a0f21a412d)
-\beamer@section@min@dim=\dimen172
+\beamer@section@min@dim=\dimen173
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasetheorems.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasetheorems.sty
 Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+(D:\Programme\MiKTex\tex\latex\ams\math\amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+(D:\Programme\MiKTex\tex\latex\ams\math\amstext.sty
 Package: amstext 2000/06/29 v2.01
- ("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+
+(D:\Programme\MiKTex\tex\latex\ams\math\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks29
-\ex@=\dimen173
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+\ex@=\dimen174
+))
+(D:\Programme\MiKTex\tex\latex\ams\math\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen174
+\pmbraise@=\dimen175
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+(D:\Programme\MiKTex\tex\latex\ams\math\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count140
@@ -587,7 +604,7 @@ LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box51
 \strutbox@=\box52
-\big@size=\dimen175
+\big@size=\dimen176
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \macc@depth=\count145
@@ -600,12 +617,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \column@=\count150
 \maxfields@=\count151
 \andhelp@=\toks31
-\eqnshift@=\dimen176
-\alignsep@=\dimen177
-\tagshift@=\dimen178
-\tagwidth@=\dimen179
-\totwidth@=\dimen180
-\lineht@=\dimen181
+\eqnshift@=\dimen177
+\alignsep@=\dimen178
+\tagshift@=\dimen179
+\tagwidth@=\dimen180
+\totwidth@=\dimen181
+\lineht@=\dimen182
 \@envbody=\toks32
 \multlinegap=\skip52
 \multlinetaggap=\skip53
@@ -613,7 +630,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\ams\classes\amsthm.sty"
+(D:\Programme\MiKTex\tex\latex\ams\classes\amsthm.sty
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks34
 \thm@bodyfont=\toks35
@@ -627,133 +644,144 @@ Package: amsthm 2004/08/06 v2.20
 )
 \c@theorem=\count152
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\beamerbasethemes.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\beamerbasethemes.sty
 Package: beamerbasethemes 2010/05/01  (rcs-revision efa082c6111d)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\theme\beamerthemedefault.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\themes\theme\beamerthemedefault.sty
 Package: beamerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\font\beamerfontthemedefault.sty"
-Package: beamerfontthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+(D:\Programme\MiKTex\tex\latex\beamer\base\themes\font\beamerfontthemedefault.s
+ty
+Package: beamerfontthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\color\beamercolorthemedefault.sty"
-Package: beamercolorthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+(D:\Programme\MiKTex\tex\latex\beamer\base\themes\color\beamercolorthemedefault
+.sty
+Package: beamercolorthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\inner\beamerinnerthemedefault.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\themes\inner\beamerinnerthemedefault
+.sty
 Package: beamerinnerthemedefault 2012/05/01  (rcs-revision 67c48b3b652d)
-\beamer@dima=\dimen182
-\beamer@dimb=\dimen183
+\beamer@dima=\dimen183
+\beamer@dimb=\dimen184
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\outer\beamerouterthemedefault.sty"
-Package: beamerouterthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+(D:\Programme\MiKTex\tex\latex\beamer\base\themes\outer\beamerouterthemedefault
+.sty
+Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )))
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\templates/beamerthemekit.sty
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\templates/beamerthemekitbase.sty
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\templates/be
+amerthemekit.sty
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\templates/be
+amerthemekitbase.sty (D:\Programme\MiKTex\tex\generic\babel\babel.sty
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+(D:\Programme\MiKTex\tex\latex\00miktex\bblopts.cfg
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
+(D:\Programme\MiKTex\tex\generic\babel\english.ldf
 Language: english 2005/03/30 v3.3o English support from the babel system
- ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+
+(D:\Programme\MiKTex\tex\generic\babel\babel.def
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 LaTeX Info: Redefining \textlatin on input line 82.
 \babel@savecnt=\count153
-\U@D=\dimen184
+\U@D=\dimen185
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\ngermanb.ldf"
+)
+(D:\Programme\MiKTex\tex\generic\babel\ngermanb.ldf
 Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
 \l@naustrian = a dialect from \language\l@ngerman 
 Package babel Info: Making " an active character on input line 92.
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+))
+(D:\Programme\MiKTex\tex\latex\base\ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
-) (C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\textpos\textpos.sty
-Package: textpos 2012/06/01 v1.7h
+)
+(D:\Programme\MiKTex\tex\latex\textpos\textpos.sty
+Package: textpos 2012/11/13 v1.7i
 
-Package: textpos 2012/06/01 1.7h, absolute positioning of text on the page
+Package: textpos 2012/11/13 1.7i, absolute positioning of text on the page
 \TP@textbox=\box53
 \TP@holdbox=\box54
-\TPHorizModule=\dimen185
-\TPVertModule=\dimen186
-\TP@margin=\dimen187
-\TP@absmargin=\dimen188
+\TPHorizModule=\dimen186
+\TPVertModule=\dimen187
+\TP@margin=\dimen188
+\TP@absmargin=\dimen189
 Grid set 16 x 16 = 22.7622pt x 17.07166pt
-\TPboxrulesize=\dimen189
-\TP@ox=\dimen190
-\TP@oy=\dimen191
+\TPboxrulesize=\dimen190
+\TP@ox=\dimen191
+\TP@oy=\dimen192
 \TP@tbargs=\toks40
-\TP@prevdepth=\dimen192
+\TP@prevdepth=\dimen193
 TextBlockOrigin set to 0pt x 0pt
-) (C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\templates/semirounded.sty)
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\overpic\overpic.sty
+)
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\templates/se
+mirounded.sty) (D:\Programme\MiKTex\tex\latex\overpic\overpic.sty
 Package: overpic 2010/09/13 v0.53  Overwriting graphics
 
 Package: overpic v0.53 <2010/09/13> (RN)
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\eepic\epic.sty
+(D:\Programme\MiKTex\tex\latex\eepic\epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 \@@multicnt=\count154
 \d@lta=\count155
-\@delta=\dimen193
-\@@delta=\dimen194
+\@delta=\dimen194
+\@@delta=\dimen195
 \@gridcnt=\count156
 \@joinkind=\count157
-\@dotgap=\dimen195
-\@ddotgap=\dimen196
+\@dotgap=\dimen196
+\@ddotgap=\dimen197
 \@x@diff=\count158
 \@y@diff=\count159
-\x@diff=\dimen197
-\y@diff=\dimen198
+\x@diff=\dimen198
+\y@diff=\dimen199
 \@dotbox=\box55
 \num@segments=\count160
 \num@segmentsi=\count161
 \@datafile=\read2
 )
 overpic: absolute positioning in \unitlength 
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
+) (D:\Programme\MiKTex\tex\latex\psnfss\helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\inner\beamerinnerthemerounded.sty"
+(D:\Programme\MiKTex\tex\latex\beamer\base\themes\inner\beamerinnerthemerounded
+.sty
 Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\templates/beamercolorthemekit.sty
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\templates/be
+amercolorthemekit.sty
 \GPT@outputbox=\box56
 ))
 \kitbottom=\skip57
-)
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+) (D:\Programme\MiKTex\tex\latex\listings\listings.sty
 \lst@mode=\count162
 \lst@gtempboxa=\box57
 \lst@token=\toks41
 \lst@length=\count163
-\lst@currlwidth=\dimen199
+\lst@currlwidth=\dimen200
 \lst@column=\count164
 \lst@pos=\count165
-\lst@lostspace=\dimen200
-\lst@width=\dimen201
+\lst@lostspace=\dimen201
+\lst@width=\dimen202
 \lst@newlines=\count166
 \lst@lineno=\count167
-\lst@maxwidth=\dimen202
+\lst@maxwidth=\dimen203
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+(D:\Programme\MiKTex\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count168
 \lst@skipnumbers=\count169
 \lst@framebox=\box58
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+(D:\Programme\MiKTex\tex\latex\listings\listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+(D:\Programme\MiKTex\tex\latex\base\textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -767,7 +795,8 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+
+(D:\Programme\MiKTex\tex\latex\base\ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -795,6 +824,7 @@ Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
 Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
 Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
 Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
 Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
 Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
 Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
@@ -832,21 +862,22 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+(D:\Programme\MiKTex\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(D:\Programme\MiKTex\tex\latex\base\inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks42
 \inpenc@posthook=\toks43
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+
+(D:\Programme\MiKTex\tex\latex\base\utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+(D:\Programme\MiKTex\tex\latex\base\t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -995,7 +1026,8 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+
+(D:\Programme\MiKTex\tex\latex\base\ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -1026,7 +1058,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+(D:\Programme\MiKTex\tex\latex\base\omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -1043,7 +1075,8 @@ Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+
+(D:\Programme\MiKTex\tex\latex\base\ts1enc.dfu
 File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -1126,32 +1159,33 @@ File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\stmaryrd\stmaryrd.sty"
+(D:\Programme\MiKTex\tex\latex\stmaryrd\stmaryrd.sty
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 \symstmry=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 (Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty
-Package: biblatex 2012/08/17 v2.2 programmable bibliographies (PK/JW/AB)
+(D:\Programme\MiKTex\tex\latex\biblatex\biblatex.sty
+Package: biblatex 2013/01/10 v2.5 programmable bibliographies (PK/JW/AB)
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex2.sty
-Package: biblatex2 2012/08/17 v2.2 programmable bibliographies (biber) (PK/JW/AB)
+(D:\Programme\MiKTex\tex\latex\biblatex\biblatex2.sty
+Package: biblatex2 2013/01/10 v2.5 programmable bibliographies (biber) (PK/JW/A
+B)
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+(D:\Programme\MiKTex\tex\latex\etoolbox\etoolbox.sty
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
+(D:\Programme\MiKTex\tex\latex\misc\etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count170
 )
 \etb@tempcnta=\count171
 )
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.sty
+(D:\Programme\MiKTex\tex\latex\logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count172
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.def
+(D:\Programme\MiKTex\tex\latex\logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
 \c@tabx@nest=\count173
@@ -1209,7 +1243,7 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-dm.def)
+(D:\Programme\MiKTex\tex\latex\biblatex\blx-dm.def)
 Package biblatex Info: Trying to load biblatex citestyle data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex bibstyle data model...
@@ -1286,13 +1320,13 @@ Normal \count register pool exhausted, switching to extended pool.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-compat.def
-File: blx-compat.def 2012/08/17 v2.2 biblatex compatibility (PK/JW/AB)
+(D:\Programme\MiKTex\tex\latex\biblatex\blx-compat.def
+File: blx-compat.def 2013/01/10 v2.5 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.def
+(D:\Programme\MiKTex\tex\latex\biblatex\biblatex.def
 File: biblatex.def 
 \c@biburlnumpenalty=\count323
 \c@biburlucpenalty=\count324
@@ -1302,20 +1336,21 @@ File: biblatex.def
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\numeric.bbx
-File: numeric.bbx 2012/08/17 v2.2 biblatex bibliography style (PK/JW/AB)
+(D:\Programme\MiKTex\tex\latex\biblatex\bbx\numeric.bbx
+File: numeric.bbx 2013/01/10 v2.5 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\standard.bbx
-File: standard.bbx 2012/08/17 v2.2 biblatex bibliography style (PK/JW/AB)
+(D:\Programme\MiKTex\tex\latex\biblatex\bbx\standard.bbx
+File: standard.bbx 2013/01/10 v2.5 biblatex bibliography style (PK/JW/AB)
 \c@bbx:relatedcount=\count327
+\c@bbx:relatedtotal=\count328
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\cbx\authoryear.cbx
-File: authoryear.cbx 2012/08/17 v2.2 biblatex citation style (PK/JW/AB)
+(D:\Programme\MiKTex\tex\latex\biblatex\cbx\authoryear.cbx
+File: authoryear.cbx 2013/01/10 v2.5 biblatex citation style (PK/JW/AB)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1326,19 +1361,19 @@ Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.cfg
+(D:\Programme\MiKTex\tex\latex\biblatex\biblatex.cfg
 File: biblatex.cfg 
 )))
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\ngerman.lbx
-File: ngerman.lbx 2012/08/17 v2.2 biblatex localization (PK/JW/AB)
+(D:\Programme\MiKTex\tex\latex\biblatex\lbx\ngerman.lbx
+File: ngerman.lbx 2013/01/10 v2.5 biblatex localization (PK/JW/AB)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\german.lbx
-File: german.lbx 2012/08/17 v2.2 biblatex localization (PK/JW/AB)
+(D:\Programme\MiKTex\tex\latex\biblatex\lbx\german.lbx
+File: german.lbx 2013/01/10 v2.5 biblatex localization (PK/JW/AB)
 ))
 
 Package biblatex Warning: Patching footnotes failed.
@@ -1348,36 +1383,39 @@ Package biblatex Warning: Patching footnotes failed.
 Package biblatex Warning: 'babel' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count328
-\@quotereset=\count329
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 96.
+\@quotelevel=\count329
+\@quotereset=\count330
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 111.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+
+(D:\Programme\MiKTex\tex\latex\base\ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 96.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 111.
+
+
+(D:\Programme\MiKTex\tex\latex\psnfss\ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 96.
+(Font)              scaled to size 10.07397pt on input line 111.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1413,123 +1451,126 @@ LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\Biggie\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(D:\Programme\MiKTex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count330
-\scratchdimen=\dimen203
+\scratchcounter=\count331
+\scratchdimen=\dimen204
 \scratchbox=\box59
-\nofMPsegments=\count331
-\nofMParguments=\count332
+\nofMPsegments=\count332
+\nofMParguments=\count333
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count333
-\MPscratchDim=\dimen204
-\MPnumerator=\count334
-\makeMPintoPDFobject=\count335
+\MPscratchCnt=\count334
+\MPscratchDim=\dimen205
+\MPnumerator=\count335
+\makeMPintoPDFobject=\count336
 \everyMPtoPDFconversion=\toks45
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 96.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+Package hyperref Info: Link coloring OFF on input line 111.
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+(D:\Programme\MiKTex\tex\latex\hyperref\nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(D:\Programme\MiKTex\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count336
+\c@section@level=\count337
 )
-LaTeX Info: Redefining \ref on input line 96.
-LaTeX Info: Redefining \pageref on input line 96.
-LaTeX Info: Redefining \nameref on input line 96.
+LaTeX Info: Redefining \ref on input line 111.
+LaTeX Info: Redefining \pageref on input line 111.
+LaTeX Info: Redefining \nameref on input line 111.
 
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.out)
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.out)
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.out)
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.out)
 \@outlinefile=\write6
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 96.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 111.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 96.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 111.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 96.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 96.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 96.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 96.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 96.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 111.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 96.
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 96.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 96.
+(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 111.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 96.
+(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 96.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 96.
+(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 111.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 96.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 96.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 111.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 96.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 111.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 96.
+(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 96.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 96.
+(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 96.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 96.
+(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 111.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 96.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 111.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\translator-basic-dictionary\translator-basic-dictio
-nary-English.dict"
+(D:\Programme\MiKTex\tex\latex\beamer\base\translator\dicts\translator-basic-di
+ctionary\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\translator-bibliography-dictionary\translator-bibli
-ography-dictionary-English.dict"
+(D:\Programme\MiKTex\tex\latex\beamer\base\translator\dicts\translator-bibliogr
+aphy-dictionary\translator-bibliography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\translator-environment-dictionary\translator-enviro
-nment-dictionary-English.dict"
+(D:\Programme\MiKTex\tex\latex\beamer\base\translator\dicts\translator-environm
+ent-dictionary\translator-environment-dictionary-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\translator-months-dictionary\translator-months-dict
-ionary-English.dict"
+(D:\Programme\MiKTex\tex\latex\beamer\base\translator\dicts\translator-months-d
+ictionary\translator-months-dictionary-English.dict
 Dictionary: translator-months-dictionary, Language: English 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\translator-numbers-dictionary\translator-numbers-di
-ctionary-English.dict"
+(D:\Programme\MiKTex\tex\latex\beamer\base\translator\dicts\translator-numbers-
+dictionary\translator-numbers-dictionary-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\translator-theorem-dictionary\translator-theorem-di
-ctionary-English.dict"
+(D:\Programme\MiKTex\tex\latex\beamer\base\translator\dicts\translator-theorem-
+dictionary\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 96.
-\c@lstlisting=\count337
+LaTeX Info: Redefining \includegraphics on input line 111.
+\c@lstlisting=\count338
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Tut11.bbl' found.
- (C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.bbl)
-Package biblatex Info: Reference section=0 on input line 96.
-Package biblatex Info: Reference segment=0 on input line 96.
 
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.nav)
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.bbl)
+Package biblatex Info: Reference section=0 on input line 111.
+Package biblatex Info: Reference segment=0 on input line 111.
+
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.nav)
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 96.
+(Font)              scaled to size 5.51999pt on input line 111.
 
 <logos/kitlogo_de_rgb.pdf, id=23, 196.91472pt x 90.65388pt>
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
- <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 104.
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 119.
 (pdftex.def)             Requested size: 65.44133pt x 30.12611pt.
 
 
@@ -1539,7 +1580,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 \end{frame}
+l.119 \end{frame}
                  
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2
@@ -1547,143 +1588,291 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 104.
+(Font)              scaled to size 13.24796pt on input line 119.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 104.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 13.24796pt on input line 104.
+(Font)              scaled to size 13.24796pt on input line 119.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 104.
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 104.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsphv.fd"
+(Font)              scaled to size 7.35999pt on input line 119.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 119.
+
+(D:\Programme\MiKTex\tex\latex\psnfss\omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 3.68pt on input line 104.
+(Font)              scaled to size 3.68pt on input line 119.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 104.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 7.35999pt on input line 104.
- <logos/bauplan.jpg, id=25, 1288.815pt x 409.53pt>
+(Font)              scaled to size 7.35999pt on input line 119.
+
+<logos/bauplan.jpg, id=25, 1288.815pt x 409.53pt>
 File: logos/bauplan.jpg Graphic file (type jpg)
-
-<use logos/bauplan.jpg>
-Package pdftex.def Info: logos/bauplan.jpg used on input line 104.
+ <use logos/bauplan.jpg>
+Package pdftex.def Info: logos/bauplan.jpg used on input line 119.
 (pdftex.def)             Requested size: 358.50586pt x 113.81151pt.
- [1
 
-{C:/Users/Biggie/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Biggie/Documents/GitHub/ProgrammierenTut/T
-ut11/TeX/logos/kitlogo_de_rgb.pdf> <C:/Users/Biggie/Documents/GitHub/ProgrammierenTut/Tut11/TeX/logos/bauplan.jpg>] (C:\
-Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.toc)
+[1
+
+{D:/Programme/MiKTex/pdftex/config/pdftex.map} <C:/Users/Spacetoaster/Documents
+/GitHub/ProgrammierenTut/Tut11/TeX/logos/kitlogo_de_rgb.pdf> <C:/Users/Spacetoa
+ster/Documents/GitHub/ProgrammierenTut/Tut11/TeX/logos/bauplan.jpg>]
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.toc)
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 110.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 124.
 (pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
  [2
 
-] (C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 2.
-LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
-LaTeX Font Info:    Try loading font information for U+msa on input line 10.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 10.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+stmry on input line 10.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\stmaryrd\ustmry.fd")
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 4.59999pt on input line 10.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 10.
-LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 8.27998pt on input line 10.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 10.
-LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 5.51999pt on input line 10.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 10.
-LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 4.59999pt on input line 10.
-)
+]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 141.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 10.07397pt on input line 141.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
  <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 133.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 141.
 (pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
-
-Overfull \vbox (11.82741pt too high) detected at line 133
- []
-
-[3
+ [3
 
 ]
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
- <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 145.
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 141.
 (pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
  [4
 
 ]
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
+
+(D:\Programme\MiKTex\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
+
+(D:\Programme\MiKTex\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+stmry on input line 18.
+
+(D:\Programme\MiKTex\tex\latex\stmaryrd\ustmry.fd)
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.07397pt on input line 18.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 7.35999pt on input line 18.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 5.51999pt on input line 18.
+)
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
- <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 145.
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 162.
 (pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
  [5
 
 ]
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
- <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 145.
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 162.
 (pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
  [6
 
 ]
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 177.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
-
-<use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 145.
+ <use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 177.
 (pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
  [7
 
 ]
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
- <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 145.
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 194.
 (pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
  [8
 
 ]
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
  <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 145.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 194.
 (pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
  [9
 
 ]
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 3.
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 194.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [10
+
+]
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+ <use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 194.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [11
+
+]
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 194.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [12
+
+]
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb
+<ExceptionHierarchy.png, id=378, 240.9pt x 195.73125pt>
+File: ExceptionHierarchy.png Graphic file (type png)
+
+<use ExceptionHierarchy.png>
+Package pdftex.def Info: ExceptionHierarchy.png used on input line 4.
+(pdftex.def)             Requested size: 231.03545pt x 187.72066pt.
+)
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+ <use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 201.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [13
+
+ <C:/Users/Spacetoaster/Documents/GitHub/ProgrammierenTut/Tut11/TeX/ExceptionHi
+erarchy.png>]
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 221.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [14
+
+]
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 221.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [15
+
+]
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb
+<pokemon.jpeg, id=465, 384.6872pt x 279.29344pt>
+File: pokemon.jpeg Graphic file (type jpg)
+ <use pokemon.jpeg>
+Package pdftex.def Info: pokemon.jpeg used on input line 4.
+(pdftex.def)             Requested size: 165.02603pt x 119.81682pt.
+)
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 234.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [16
+
+ <C:/Users/Spacetoaster/Documents/GitHub/ProgrammierenTut/Tut11/TeX/pokemon.jpe
+g>]
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 255.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [17
+
+]
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 7.
+
+(D:\Programme\MiKTex\tex\latex\base\ts1cmtt.fd
+File: ts1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+))
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 268.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [18
+
+]
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 291.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [19
+
+]
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+ <use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 303.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [20
+
+]
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 303.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [21
+
+]
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+ <use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 303.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [22
+
+]
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 303.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [23
+
+]
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+ <use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 303.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [24
+
+]
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 303.
+(pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
+ [25
+
+]
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 9.19998pt on input line 7.
-LaTeX Font Info:    Try loading font information for OML+phv on input line 7.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlphv.fd"
-File: omlphv.fd 
-)
-LaTeX Font Info:    Font shape `OML/phv/m/n' in size <9> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 7.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 6.43999pt on input line 12.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 4.59999pt on input line 12.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 12.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
@@ -1692,93 +1881,106 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 12.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 (Font)              scaled to size 6.43999pt on input line 12.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 12.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 4.59999pt on input line 12.
 )
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
- <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 173.
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 331.
 (pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
- [10
+ [26
 
 ]
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
- <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 173.
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 331.
 (pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
- [11
+ [27
 
 ]
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
- <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 173.
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 331.
 (pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
- [12
+ [28
 
 ]
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
- <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 173.
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 331.
 (pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
- [13
+ [29
 
 ]
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
- <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 173.
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 331.
 (pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
- [14
+ [30
 
 ]
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
- <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 173.
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 331.
 (pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
- [15
+ [31
 
 ]
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.vrb)
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
- <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 173.
+
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf used on input line 331.
 (pdftex.def)             Requested size: 39.83385pt x 18.33794pt.
- [16
+ [32
 
 ]
-\c@framenumbervorappendix=\count338
+\c@framenumbervorappendix=\count339
 \tf@nav=\write7
 \tf@toc=\write8
 \tf@snm=\write9
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 343.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 343.
 
-(C:\Users\Biggie\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
+(C:\Users\Spacetoaster\Documents\GitHub\ProgrammierenTut\Tut11\TeX\Tut11.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 343.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 343.
 Package rerunfilecheck Info: File `Tut11.out' has not changed.
 (rerunfilecheck)             Checksum: 45936B2DDEC47B7A22104F506A29F4C3;91.
 Package logreq Info: Writing requests to 'Tut11.run.xml'.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 343.
  ) 
 Here is how much of TeX's memory you used:
- 23529 strings out of 494045
- 422249 string characters out of 3148383
- 1010686 words of memory out of 3000000
- 26211 multiletter control sequences out of 15000+200000
- 32149 words of font info for 72 fonts, out of 3000000 for 9000
- 719 hyphenation exceptions out of 8191
- 49i,15n,60p,949b,1884s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Tut11.pdf (16 pages, 388295 bytes).
+ 23811 strings out of 493921
+ 423012 string characters out of 3150556
+ 970124 words of memory out of 3000000
+ 26441 multiletter control sequences out of 15000+200000
+ 34345 words of font info for 80 fonts, out of 3000000 for 9000
+ 845 hyphenation exceptions out of 8191
+ 49i,15n,60p,949b,1874s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <D:\Programme\MiKTex\fonts\pk\ljfour\jknappen\ec\dpi600\tctt0800.pk>{D:/Prog
+ramme/MiKTex/fonts/enc/dvips/fontname/8r.enc}<D:/Programme/MiKTex/fonts/type1/p
+ublic/amsfonts/cm/cmitt10.pfb><D:/Programme/MiKTex/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb><D:/Programme/MiKTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D
+:/Programme/MiKTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Programme/MiKTe
+x/fonts/type1/public/amsfonts/cm/cmtt8.pfb><D:/Programme/MiKTex/fonts/type1/urw
+/helvetic/uhvb8a.pfb><D:/Programme/MiKTex/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on Tut11.pdf (32 pages, 586131 bytes).
 PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 989 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

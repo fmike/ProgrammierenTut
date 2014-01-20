@@ -58,24 +58,39 @@
 	language=Java,
 	backgroundcolor=\color{lbcolor},
 	tabsize=4,
-	rulecolor=,
-        basicstyle=\footnotesize,
-        aboveskip=5pt,
-        upquote=true,
-        columns=fixed,
-        showstringspaces=false,
-        extendedchars=true,
-        breaklines=true,
-        frame=single,
-        showtabs=false,
-        showspaces=false,
-        showstringspaces=false,
-        identifierstyle=\ttfamily,
-        keywordstyle=\color[rgb]{0,0,1},
-        commentstyle=\color[rgb]{0.133,0.545,0.133},
-        stringstyle=\color[rgb]{0.627,0.126,0.941},
+	rulecolor=\color[rgb]{0.7,0.7,0.7},
+  basicstyle=\scriptsize\ttfamily,
+  aboveskip=5pt,
+  upquote=true,
+  columns=fixed,
+  showstringspaces=false,
+  extendedchars=true,
+  breaklines=true,
+  frame=lines,
+  showtabs=false,
+  showspaces=false,
+  showstringspaces=false,
+  keepspaces=true,
+  numbers=left,
+  numbersep=5pt,
+  numberstyle=\tiny\color[rgb]{0.3,0.3,0.3},
+  identifierstyle=\ttfamily\itshape\color[rgb]{0,0,1},
+  keywordstyle=\color[rgb]{0.4,0,0.2},
+  commentstyle=\color[rgb]{0,0.6,0},
+  stringstyle=\color[rgb]{0.627,0.126,0.941},
 }
-%\setbeamercovered{covered}
+\lstset{literate=%
+{Ö}{{\"O}}1 
+{Ä}{{\"A}}1 
+{Ü}{{\"U}}1 
+{ß}{{\ss}}2 
+{ü}{{\"u}}1 
+{ä}{{\"a}}1 
+{ö}{{\"o}}1
+}
+\usepackage[utf8]{inputenc}
+\setbeamercovered{invisible}
+
 
 \usepackage[utf8]{inputenc}
 \usepackage{stmaryrd}
@@ -105,11 +120,154 @@
 
 %table of contents
 \begin{frame}{Outline/Gliederung}
-
-	\tableofcontents
+  \tableofcontents
 \end{frame}
 
 \section{Exceptions}
+\begin{frame}{Fehlerbehandlung}
+Wichtig bei:
+\begin{itemize}
+	\item Öffnen einer Datei, welche nicht existiert
+  \item Zugriff auf Array-Element mit ungültigem Index
+  \item Division durch Null
+  \item ...
+\end{itemize}
+\pause
+\textbf{Probleme:}
+\begin{itemize}
+	\item Fehler abfangen, weiterleiten, behandeln?
+  \item Wie Programmfluss dadurch nicht stören?
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Fehlerbehandlung}
+	\textbf{Eine Möglichkeit:} Prüfen mittels if-Abfragen
+  \begin{lstlisting}
+public int positivMultiply(int x, int y) {
+  if ((x>0 && y<0) || (x<0 && y>0)) {
+    System.out.println("Fehler: ein Argument ist negativ");
+    return -1;
+  } else {
+    return x*y;
+  }
+}
+  \end{lstlisting}
+  \pause
+  \textbf{Funktioniert, aber:}
+  \begin{itemize}
+    \item Stört Kontrollfluss
+    \item evtl. Ausgaben, wo man sie nicht haben will bzw. sollte!
+    \item[] $\Rightarrow$ Vermischung von Logik und Fehlerbehandlung
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Exceptions}
+	\begin{block}{Exceptions}
+    \begin{itemize}
+      \item Werden in Fehlersituationen zur Laufzeit ausgelöst ("`geworfen"')
+      \item Können in einem übergeordneten Block abgefangen und behandelt werden
+      \item Unterbrechen den Kontrollfluss
+    \end{itemize}
+  \end{block}
+  \textbf{Vorteile:}
+  \begin{itemize}
+    \item[+] Fehler muss nicht lokal behandelt werden, sondern kann weitergereicht werden
+    \item[+] saubere Trennung von Logik und Fehlerbehandlung
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Exceptions}
+	\begin{itemize}
+    \item Sind Objekte (\lstinline$Exception$ und Unterklassen)
+    \item[] $\Rightarrow$ werden mit \lstinline$new$ erzeugt
+    \pause
+    \item werden mit \lstinline$throw$ geworfen
+    \pause
+    \item Methode, welche den Fehler erzeugt (wirft), wird mit \lstinline$throws$ gekennzeichnet
+    \item[] \lstinline$public void methode(..) throws IllegalArgumentException$
+    \pause
+    \item Wird die Exception nicht in der Methode selbst gecatched, so wird sie an die aufrufende Methode weitergeleitet
+    \pause
+    \item Viele Exceptions in Java-API vorhanden, eigene sind möglich
+    \item Java-Doc dokumentation mittels \lstinline$@throws$
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Exceptions: Vererbungshierarchie}
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=0.7\textwidth]{ExceptionHierarchy.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]{Exceptions: Verwendung}
+	\begin{lstlisting}
+public int positivMultiply(int x, int y) throws IllegalArgumentException {
+  if ((x>0 && y<0) || (x<0 && y>0)) {
+    throw new IllegalArgumentException();
+  }
+  return x * y;
+}
+  \end{lstlisting}
+  \pause
+  An \textbf{anderer (aufrufender) Stelle}, wo der Fehler behandelt werden soll:
+  \begin{lstlisting}
+  try {
+    int z = positivMultiply(x,y);
+  } catch (IllegalArgumentException e) {
+    System.out.println("Fehler: ein Argument ist negativ");
+  }
+  \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{For when you just Gotta Catch 'Em All}
+	\begin{figure}%
+  \includegraphics[width=0.5\columnwidth]{pokemon.jpeg}%
+  \end{figure}
+  \begin{lstlisting}
+  try {
+    ...
+  } catch (Exception e) {
+    // Gotcha!
+  }
+  \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Exceptions vs Errors}
+	\begin{block}{RuntimeException}
+    \begin{itemize}
+      \item Programmierfehler, der zur Laufzeit festgestellt wird, teilweise behandelbar
+      \item \lstinline$NullPointerException$, \lstinline$ArrayIndexOutOfBoundsException$
+    \end{itemize}
+  \end{block}
+  \begin{block}{Errors}
+    \begin{itemize}
+      \item kritische Fehler bei Programmausführung
+      \item Nicht behandelbar!
+      \item \lstinline$VirtualMachineError$, \lstinline$OutOfMemoryError$
+    \end{itemize}
+  \end{block}
+  \begin{block}{sonstige Exceptions}
+    \begin{itemize}
+      \item behandelbare Programmfehler, sollte man auf jeden Fall abfangen
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}[fragile]{Exceptions: finally}
+  optionaler Block, welcher auf jeden Fall ausgeführt wird.
+	\begin{lstlisting}
+try {
+  openFile();
+} catch (IOException e) {
+  printError("File couldn't be read!");
+} finally {
+  closeFile();
+}
+  \end{lstlisting}
+\end{frame}
+
+
 \begin{frame}[fragile]{Exceptions}
 \begin{lstlisting}
 public static void main(String[] args) {
