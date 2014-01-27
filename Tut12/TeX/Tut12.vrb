@@ -1,0 +1,6 @@
+\frametitle{Assertions aktivieren}
+Rechtsklick aufs Projekt $\rightarrow$ Run Configurations
+        \begin{figure}%
+  \includegraphics[width=0.8\columnwidth]{vmarg.png}%
+  \end{figure}
+  Alternativ: \hspace{1cm} \textit{java -ea MyClass}
